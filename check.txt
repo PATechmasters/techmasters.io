@@ -1,0 +1,1 @@
+This file is used to check if the website is actually being hosted on GitHub.
