@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Contact Techmasters</title>
-    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="styles/bootstraptheme.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/custom.css">
+
+    <!--Google fonts>-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Upgrade Insecure Reqests -->
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
@@ -14,113 +19,39 @@
 </head>
 
 <body>
-    <header class="navbar-inverse">
+    <br>
+    <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
         <div class="container">
-            <nav role="navigation">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html"><strong><font size="6">PATech</font></strong></a>
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav pull-right">
-                            <li><a href="index.html">Home</a>
+            <div class="navbar-header">
+                <a href="../" class="navbar-brand">PATechmasters</a><span class="navbar-brand"> | Campus Tech Support</span>
+            </div>
+            <nav id="bs-navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="../join.html">Join the Club</a>
+                    </li>
+                    <li class="active">
+                        <a href="../contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="../faq.html">FAQ</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Student Tools<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="https://paschedules.herokuapp.com">Schedules App</a>
                             </li>
-                            <li><a href="about.html">About</a>
+                            <li><a href="https://printon.andover.edu">On-Campus WiFi Printing</a>
                             </li>
-                            <li><a href="help.html">Help</a>
-                            </li>
-                            <li><a href="faq.html">FAQ</a>
-                            </li>
-                            <li class="active"><a href="contact.html">Contact Us<span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Student Tools<span class="caret"></span></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="https://paschedules.herokuapp.com">Schedules App</a>
-                                    </li>
-                                    <li><a href="https://printon.andover.edu">On-Campus WiFi Printing</a>
-                                    <li><a href="https://portal.office.com/start?sku=student">Office 365 Education</a>
-                                    </li>
-                                    <li class="divider"></li>
-                                    <li><a href="guides.html">Tool Guides/Help</a>
-                                    </li>
-                                </ul>
+                            <li><a href="https://portal.office.com/start?sku=student">Microsoft Office 365 Student</a>
                             </li>
                         </ul>
-                    </div>
-                    <!-- /.navbar-collapse -->
-                </div>
-                <!-- /.container-fluid -->
+                    </li>
+                </ul>
             </nav>
         </div>
     </header>
-    <div class="container">
-        <h1>Contact Us</h1>
-        <br>
-    </div>
-
-    <div class="white">
-        <div class="container">
-            <p>
-                <br> If you would like to contact any of the board members with questions regarding Techmasters, feel free to do so at our respective e-mails:
-
-                <h4><strong>Co-Presidents</strong></h4>
-                <ul>
-                    <li>Cameron Wong '16: cwong@andover.edu</li>
-                    <li>Karen Xia '16: kxia@andover.edu</li>
-                </ul>
-                <h4><strong>Assistant to the Co-Presidents</strong></h4>
-                <ul>
-                    <li>Philip Lamkin '17: plamkin@andover.edu</li>
-                </ul>
-                <h4><strong>Webmaster</strong></h4>
-                <ul>
-                    <li>Eric Lee '16: elee@andover.edu</li>
-                </ul>
-                <h4><strong>Server Technician</strong></h4>
-                <ul>
-                    <li>Yatharth Agarwal '17: yagarwal@andover.edu</li>
-                </ul>
-            </p>
-        </div>
-    </div>
-
-
-    <footer class="white">
-        <div class="container">
-            <hr> &copy; 2015 Techmasters - Phillips Academy Andover
-        </div>
-    </footer>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var $_Tawk_API = {},
-            $_Tawk_LoadStart = new Date();
-        (function () {
-            var s1 = document.createElement("script"),
-                s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/55091294059b265f542450db/default';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    </script>
-    <!--End of Tawk.to Script-->
+    <hr>
 </body>
 
 </html>

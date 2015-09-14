@@ -1,0 +1,27 @@
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.blue {
+    background-color: rgb(53, 151, 255);
+}
+
+.headingclass {
+    color: white;
+    text-align: center;
+    margin: 100px auto 100px auto;
+}
+
+hr {
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
