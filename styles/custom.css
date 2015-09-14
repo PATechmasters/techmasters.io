@@ -46,6 +46,15 @@
     }
 }
 
+#fadein {
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+
 #shiftup {
     opacity: 0;
     animation-name: shiftup;
@@ -67,13 +76,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .headingclass {
-    animation-name: fadein;
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
-    -webkit-animation-name: fadein;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-fill-mode: forwards;
-    opacity: 0;
     color: white;
     text-align: center;
     margin: 100px auto 100px auto;
