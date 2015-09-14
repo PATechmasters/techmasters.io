@@ -1,3 +1,63 @@
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+        /*color: rgba(255, 255, 255, 0.25);*/
+    }
+    100% {
+        opacity: 1;
+        /*color: rgba(255, 255, 255, 1);*/
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        /*color: rgba(255, 255, 255, 0.25);*/
+    }
+    100% {
+        opacity: 1;
+        /*color: rgba(255, 255, 255, 1);*/
+    }
+}
+
+@-webkit-keyframes shiftup {
+    0% {
+        top: 200px;
+        opacity: 0;
+        /*color: rgba(255, 255, 255, 0.25);*/
+    }
+    100% {
+        top: 0px;
+        opacity: 1;
+        /*color: rgba(255, 255, 255, 1);*/
+    }
+}
+
+@keyframes shiftup {
+    0% {
+        top: 200px;
+        opacity: 0;
+        /*color: rgba(255, 255, 255, 0.25);*/
+    }
+    100% {
+        top: 0px;
+        opacity: 1;
+        /*color: rgba(255, 255, 255, 1);*/
+    }
+}
+
+#shiftup {
+    opacity: 0;
+    animation-name: shiftup;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    -webkit-animation-name: shiftup;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: 1s;
+}
+
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
 }
@@ -7,6 +67,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .headingclass {
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    opacity: 0;
     color: white;
     text-align: center;
     margin: 100px auto 100px auto;
