@@ -4,36 +4,6 @@ Primary style
 
 -------------------------------- */
 
-body::after {
-    /* overlay layer visible on small devices when the right panel slides in */
-
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(78, 83, 89, 0.8);
-    visibility: hidden;
-    opacity: 0;
-    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-    -moz-transition: opacity .3s 0s, visibility 0s .3s;
-    transition: opacity .3s 0s, visibility 0s .3s;
-}
-
-body.cd-overlay::after {
-    visibility: visible;
-    opacity: 1;
-    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
-    -moz-transition: opacity .3s 0s, visibility 0s 0s;
-    transition: opacity .3s 0s, visibility 0s 0s;
-}
-
-@media only screen and (min-width: 768px) {
-    body::after {
-        display: none;
-    }
-}
-
 a {
     color: rgb(53, 151, 255);
     text-decoration: none;

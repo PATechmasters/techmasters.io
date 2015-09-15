@@ -76,13 +76,26 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .blue {
-    background-color: rgb(53, 151, 255);
+    background-color: #3498db;
+}
+
+.green {
+    background-color: #2ecc71;
+}
+
+.purple {
+    background-color: #9b59b6;
+}
+
+.orange {
+    background-color: #e67e22;
 }
 
 .headingclass {
     color: white;
     text-align: center;
     margin: 100px auto 100px auto;
+    height: 120px;
 }
 
 hr {
@@ -94,7 +107,8 @@ body {
 }
 
 footer {
-    position: absolute;
+    background-color: white;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
