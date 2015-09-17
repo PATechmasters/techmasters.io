@@ -55,6 +55,39 @@ html {
     }
 }
 
+#tile1 {
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    -webkit-animation-name: fadein;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1.5s;
+}
+
+#tile2 {
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+    -webkit-animation-name: fadein;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 2.5s;
+}
+
+#tile3 {
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 3.5s;
+    -webkit-animation-name: fadein;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 3.5s;
+}
+
 #fadein {
     animation-name: fadein;
     animation-fill-mode: forwards;
