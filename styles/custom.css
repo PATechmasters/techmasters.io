@@ -56,6 +56,19 @@ html {
 }
 
 #tile1 {
+    opacity: 0;
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 1.25s;
+    -webkit-animation-name: fadein;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1.25s;
+}
+
+#tile2 {
+    opacity: 0;
     animation-name: fadein;
     animation-fill-mode: forwards;
     animation-duration: 1s;
@@ -66,26 +79,16 @@ html {
     -webkit-animation-delay: 1.5s;
 }
 
-#tile2 {
-    animation-name: fadein;
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
-    animation-delay: 2.5s;
-    -webkit-animation-name: fadein;
-    -webkit-animation-fill-mode: forwards;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 2.5s;
-}
-
 #tile3 {
+    opacity: 0;
     animation-name: fadein;
     animation-fill-mode: forwards;
     animation-duration: 1s;
-    animation-delay: 3.5s;
+    animation-delay: 1.75s;
     -webkit-animation-name: fadein;
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 3.5s;
+    -webkit-animation-delay: 1.75s;
 }
 
 #fadein {
