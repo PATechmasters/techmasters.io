@@ -71,6 +71,16 @@ body {
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-duration: 1s;
     -webkit-animation-delay: 1.25s;
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+
+#tile1:hover {
+    transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
 }
 
 #tile2 {
@@ -83,6 +93,16 @@ body {
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-duration: 1s;
     -webkit-animation-delay: 1.5s;
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+
+#tile2:hover {
+    transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
 }
 
 #tile3 {
@@ -95,6 +115,16 @@ body {
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-duration: 1s;
     -webkit-animation-delay: 1.75s;
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+
+#tile3:hover {
+    transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
 }
 
 #tile4 {
@@ -107,6 +137,16 @@ body {
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-duration: 1s;
     -webkit-animation-delay: 2s;
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+
+#tile4:hover {
+    transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
 }
 
 #fadein {
