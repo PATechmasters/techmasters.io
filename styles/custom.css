@@ -99,7 +99,7 @@ body {
 
 #tile4 {
     opacity: 0;
-    animation-name: shiftup;
+    animation-name: fadein;
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-delay: 2s;
