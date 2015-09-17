@@ -97,9 +97,9 @@ body {
     -webkit-animation-delay: 1.75s;
 }
 
-#tile04 {
+#tile4 {
     opacity: 0;
-    animation-name: fadein;
+    animation-name: shiftup;
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-delay: 2s;
