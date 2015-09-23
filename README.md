@@ -3,7 +3,7 @@ This repository contains Techmasters' website.
 
 The `gh-pages` branch is automatically deployed to [our website](https://patechmasters.com).
 
-# Contributing
+## Contributing
 You are welcome to help improve our website!
 
 Simply submit contributions to https://github.com/PATechmasters/PATechmasters.com as a pull request to the `gh-pages` branch.
