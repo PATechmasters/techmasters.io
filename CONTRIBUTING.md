@@ -43,7 +43,7 @@ IF THE DISCLAIMER AND DAMAGE WAIVER MENTIONED IN SECTION 3 AND SECTION 4 CANNOT 
 This Agreement shall come into effect upon Your submission of any Contributions.
 
 ## 7. Miscellaneous
-7.1 This Agreement and all disputes, claims, actions, suits or other proceedings arising out of this agreement or relating in any way to it shall be governed by the laws of of the Commonwealth of Massachusetts, United States excluding its private international law provisions.
+7.1 This Agreement and all disputes, claims, actions, suits or other proceedings arising out of this agreement or relating in any way to it shall be governed by the laws of the Commonwealth of Massachusetts, United States excluding its private international law provisions.
 
 7.2 This Agreement sets out the entire agreement between You and Us for Your Contributions to Us and overrides all other agreements or understandings.
 
