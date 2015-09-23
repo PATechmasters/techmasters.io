@@ -1,8 +1,13 @@
-# techmasters
-Hosts the Techmasters website. Changes go live immediately at https://www.patechmasters.com
+# Techmasters' Homepage
+This repository contains Techmasters' website.
 
-A lot of files here aren't linked to the website but don't delete them because Eric Lee is a hoarder.
+The `gh-pages` branch is automatically deployed to [our website](https://patechmasters.com).
 
-Do not modify or delete the "CNAME" file!
+# Contributing
+You are welcome to help improve our website!
 
-Files with ".html" extensions are in HTML, and files with ".md" extensions are in [Markdown](https://help.github.com/articles/markdown-basics/).
+Simply submit contributions to https://github.com/PATechmasters/PATechmasters.com as a pull request to the `gh-pages` branch.
+
+Please do not modify or delete the "CNAME" file!
+
+Due to [caching by CloudFlare](https://support.cloudflare.com/hc/en-us/articles/200172516-Which-file-extensions-does-CloudFlare-cache-for-static-content-), there may be a delay before certain changes are reflected on the website once a change is merged.
