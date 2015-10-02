@@ -1,99 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Sign Up for Techmasters</title>
-    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="styles/bootstraptheme.css">
+    <meta name="description" content="Techmasters, a Phillips Academy student organization that is focused on technology and provides the school with free tech help.">
+    <meta name="author" content="Phillips Academy Techmasters" />
+
+    <meta property="og:title" content="Sign Up" />
+    <meta property="og:site_name" content="Phillips Academy Techmasters" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Techmasters, a Phillips Academy student organization that is focused on technology and provides the school with free tech help." />
+    <meta property="og:image" content="https://www.patechmasters.com/media/1442353608.ico" />
+
+
+    <title>Sign Up</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/media/1442353608.ico">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/custom.css">
+
+    <!--Google fonts>-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/profile.js"></script>
 
     <!-- Upgrade Insecure Reqests -->
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
+    <!--Start of tawk.to clickable text Script-->
+    <script type="text/javascript">
+        function toggleChat() {
+            $_Tawk.toggle();
+            return false;
+        }
+
+    </script>
 </head>
 
 <body>
-    <header class="navbar-inverse">
+    <br>
+    <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
         <div class="container">
-            <nav role="navigation">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html"><strong><font size="6">PATech</font></strong></a>
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav pull-right">
-                            <li><a href="index.html">Home</a>
+            <div class="navbar-header">
+                <a href="../" class="navbar-brand">PATechmasters</a><span class="navbar-brand"> | Campus Tech Support</span>
+            </div>
+            <nav id="bs-navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="../">Home</a>
+                    </li>
+                    <li>
+                        <a href="../join.html">Join the Club</a>
+                    </li>
+                    <li>
+                        <a href="../members.html">Members</a>
+                    </li>
+                    <li>
+                        <a href="../faq.html">FAQ</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Student Tools<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="http://paschedul.es/">Schedules App</a>
                             </li>
-                            <li><a href="about.html">About</a>
+                            <li><a href="https://printon.andover.edu">On-Campus WiFi Printing</a>
                             </li>
-                            <li><a href="help.html">Help<span class="sr-only">(current)</span></a>
+                            <li><a href="https://andoverbookexchange.herokuapp.com/">Andover Book Exchange</a>
                             </li>
-                            <li><a href="faq.html">FAQ</a>
-                            </li>
-                            <li><a href="contact.html">Contact Us</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Student Tools<span class="caret"></span></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="https://paschedules.herokuapp.com">Schedules App</a>
-                                    </li>
-                                    <li><a href="https://printon.andover.edu">On-Campus WiFi Printing</a>
-                                    <li><a href="https://portal.office.com/start?sku=student">Office 365 Education</a>
-                                    </li>
-                                    <li class="divider"></li>
-                                    <li><a href="guides.html">Tool Guides/Help</a>
-                                    </li>
-                                </ul>
+                            <li><a href="https://portal.office.com/start?sku=student">Microsoft Office 365 Student</a>
                             </li>
                         </ul>
-                    </div>
-                    <!-- /.navbar-collapse -->
-                </div>
-                <!-- /.container-fluid -->
+                    </li>
+                    <li class="dropdown" id="account">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"></a>
+                        <ul class="dropdown-menu" role="menu">
+
+                        </ul>
+                    </li>
+                </ul>
             </nav>
         </div>
     </header>
+    <hr>
 
-    <div class="container">
-        <h1>Sign Up for Techmasters</h1>
-    </div>
-    <br>
-    <div class="white">
+    <body>
         <div class="container">
-            <br>
-            <p>
-                <iframe src="https://docs.google.com/forms/d/1a2yxocLmtKIu7mvT6_I6EeHSZ5YHr1vo1ull5YqrxW4/viewform?embedded=true" width="1140" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-            </p>
-            <br>
+            <center>
+                <h1>Account</h1></center>
         </div>
-    </div>
+        <br>
+        <div class="white">
+            <div class="container">
+                <br>
 
-    <footer class="white">
-        <div class="container">
-            <hr> &copy; 2015 Techmasters - Phillips Academy Andover
+                <br>
+            </div>
         </div>
+    </body>
+
+    <footer>
+        <div class="container">
+            <hr>
+            <div class="row">
+                <div class="col-md-6" align="left">
+                    <p>&copy; 2015 Techmasters - Phillips Academy Andover</p>
+                </div>
+                <div class="col-md-6" align="right">
+                    <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Licensed under Creative Commons BY-SA 4.0</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
     </footer>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js "></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js "></script>
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
         var $_Tawk_API = {},
             $_Tawk_LoadStart = new Date();
-        (function () {
+        (function() {
             var s1 = document.createElement("script"),
                 s0 = document.getElementsByTagName("script")[0];
             s1.async = true;
@@ -102,6 +129,7 @@
             s1.setAttribute('crossorigin', '*');
             s0.parentNode.insertBefore(s1, s0);
         })();
+
     </script>
     <!--End of Tawk.to Script-->
 </body>

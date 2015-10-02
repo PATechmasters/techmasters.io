@@ -1,24 +1,87 @@
+div.overlay {
+    background-color: rgba(0, 0, 0, .25);
+    bottom: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+div.overlay > div.login-wrapper {
+    align-self: center;
+    background-color: rgba(0, 0, 0, .25);
+    border-radius: 2px;
+    padding: 6px;
+    width: 450px;
+}
+div.overlay > div.login-wrapper > div.login-content {
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    padding: 24px;
+    position: relative;
+}
+div.overlay > div.login-wrapper > div.login-content > div.login-container {
+    text-align: center;
+    position: relative;
+}
+div.overlay > div.login-wrapper > div.login-content > div.login-container form input {
+    margin: 0px auto;
+    width: 350px;
+    height: 35px;
+    padding: 7px;
+}
+div.overlay > div.login-wrapper > div.login-content > div.login-container form a {
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+}
+div.overlay > div.login-wrapper > div.login-content > h3 {
+    color: rgb(0, 0, 0);
+    font-size: 1.8em;
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: center;
+}
+a.close {
+    background-color: rgb(204, 204, 204);
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+    font-size: .8em;
+    padding: .2em .5em;
+    position: absolute;
+    top: 1.25rem;
+    transition: all 400ms ease;
+    right: 1.25rem;
+}
+a.close:hover {
+    background-color: #1bc5b3;
+    cursor: pointer;
+}
 html {
     overflow-y: scroll;
     min-height: 100%;
     height: 100%;
 }
-
 body {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
 }
-
 .membercontainer {
     margin: 10px;
     text-align: center;
 }
-
 #searchbox {
     width: 400px;
     margin: 30px auto 10px auto;
 }
-
 @-webkit-keyframes fadein {
     0% {
         opacity: 0;
@@ -29,7 +92,6 @@ body {
         /*color: rgba(255, 255, 255, 1);*/
     }
 }
-
 @keyframes fadein {
     0% {
         opacity: 0;
@@ -40,7 +102,6 @@ body {
         /*color: rgba(255, 255, 255, 1);*/
     }
 }
-
 @-webkit-keyframes shiftup {
     0% {
         top: 200px;
@@ -53,7 +114,6 @@ body {
         /*color: rgba(255, 255, 255, 1);*/
     }
 }
-
 @keyframes shiftup {
     0% {
         top: 200px;
@@ -66,7 +126,6 @@ body {
         /*color: rgba(255, 255, 255, 1);*/
     }
 }
-
 #tile1 {
     opacity: 0;
     animation-name: fadein;
@@ -82,14 +141,12 @@ body {
     -o-transition: 0.25s ease-in-out;
     transition: 0.25s ease-in-out;
 }
-
 #tile1:hover {
     transform: scale(1.1, 1.1);
     -ms-transform: scale(1.1, 1.1);
     -webkit-transform: scale(1.1, 1.1);
     z-index: 1;
 }
-
 #tile2 {
     opacity: 0;
     animation-name: fadein;
@@ -105,14 +162,12 @@ body {
     -o-transition: 0.25s ease-in-out;
     transition: 0.25s ease-in-out;
 }
-
 #tile2:hover {
     transform: scale(1.1, 1.1);
     -ms-transform: scale(1.1, 1.1);
     -webkit-transform: scale(1.1, 1.1);
     z-index: 1;
 }
-
 #tile3 {
     opacity: 0;
     animation-name: fadein;
@@ -128,14 +183,12 @@ body {
     -o-transition: 0.25s ease-in-out;
     transition: 0.25s ease-in-out;
 }
-
 #tile3:hover {
     transform: scale(1.1, 1.1);
     -ms-transform: scale(1.1, 1.1);
     -webkit-transform: scale(1.1, 1.1);
     z-index: 1;
 }
-
 #tile4 {
     opacity: 0;
     animation-name: fadein;
@@ -151,14 +204,12 @@ body {
     -o-transition: 0.25s ease-in-out;
     transition: 0.25s ease-in-out;
 }
-
 #tile4:hover {
     transform: scale(1.1, 1.1);
     -ms-transform: scale(1.1, 1.1);
     -webkit-transform: scale(1.1, 1.1);
     z-index: 1;
 }
-
 #fadein {
     animation-name: fadein;
     animation-fill-mode: forwards;
@@ -167,7 +218,6 @@ body {
     -webkit-animation-duration: 1s;
     -webkit-animation-fill-mode: forwards;
 }
-
 #shiftup {
     opacity: 0;
     animation-name: shiftup;
@@ -179,42 +229,33 @@ body {
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-delay: 1s;
 }
-
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
 }
-
 .blue {
     background-color: #3498db;
 }
-
 .green {
     background-color: #2ecc71;
 }
-
 .purple {
     background-color: #9b59b6;
 }
-
 .orange {
     background-color: #e67e22;
 }
-
 .madison {
     background-color: #2C3E50;
 }
-
 .headingclass {
     color: white;
     text-align: center;
     margin: 100px auto 100px auto;
     height: 105px;
 }
-
 hr {
     margin: 0;
 }
-
 footer {
     padding: 10px 0 0 0;
     height: 50px;
