@@ -14,12 +14,12 @@
     <meta name="description" content="Techmasters, a Phillips Academy student organization that is focused on technology and provides the school with free tech help.">
     <meta name="author" content="Phillips Academy Techmasters" />
 
-	<meta property="og:title" content="Home" />
-  	<meta property="og:site_name" content="Phillips Academy Techmasters" />
-	<meta property="og:type" content="website" />
-	<meta property="og:description" content="Techmasters, a Phillips Academy student organization that is focused on technology and provides the school with free tech help." />
+    <meta property="og:title" content="Home" />
+    <meta property="og:site_name" content="Phillips Academy Techmasters" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Techmasters, a Phillips Academy student organization that is focused on technology and provides the school with free tech help." />
     <meta property="og:image" content="https://www.patechmasters.com/media/1442353608.ico" />
-    
+
 
     <title>Home</title>
     <link rel="shortcut icon" type="image/x-icon" href="/media/1442353608.ico">
@@ -29,7 +29,9 @@
     <!--Google fonts>-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/profile.js"></script>
 
     <!-- Upgrade Insecure Reqests -->
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
@@ -40,6 +42,7 @@
             $_Tawk.toggle();
             return false;
         }
+
     </script>
 </head>
 
@@ -75,6 +78,12 @@
                             </li>
                             <li><a href="https://portal.office.com/start?sku=student">Microsoft Office 365 Student</a>
                             </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown" id="account">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"></a>
+                        <ul class="dropdown-menu" role="menu">
+
                         </ul>
                     </li>
                 </ul>
@@ -152,7 +161,7 @@
 <script type="text/javascript">
     var $_Tawk_API = {},
         $_Tawk_LoadStart = new Date();
-    (function () {
+    (function() {
         var s1 = document.createElement("script"),
             s0 = document.getElementsByTagName("script")[0];
         s1.async = true;
@@ -161,6 +170,7 @@
         s1.setAttribute('crossorigin', '*');
         s0.parentNode.insertBefore(s1, s0);
     })();
+
 </script>
 <!--End of Tawk.to Script-->
 
