@@ -149,16 +149,16 @@
             <a class="close">x</a>
             <h3>Sign in</h3>
             <div class="login-container">
-                <form method="post" action="login.php">
+                <form method="post">
                     <label for="email">
-                        <input type="text" name="username" id="username" placeholder="Andover E-Mail" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+                        <input type="text" name="username" id="username" placeholder="Andover E-Mail" pattern="[a-z0-9._%+-]+@andover.edu" required="required" />
                     </label>
                     <br>
                     <label for="password">
                         <input type="password" name="password" id="password" placeholder="Password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
                     </label>
                     <br>
-                    <a class="btn btn-primary btn-sm" type="submit">Sign in</a>
+                    <input id="signin" type="submit" class="btn btn-primary btn-sm" value="Log In"></input>
                 </form>
             </div>
             <br>
@@ -167,11 +167,11 @@
 
             <h3>Haven't Registered Yet?</h3>
             <div class="login-container">
-                <form method="post" action="login.php">
+                <form method="post">
                     <label for="email">
                         Andover E-Mail:
                         <br>
-                        <input type="text" name="username" id="username" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]$" required>
+                        <input type="text" name="username" id="username" pattern="[a-z0-9._%+-]+@andover.edu" required>
                     </label>
                     <br>
                     <label for="password">
@@ -187,7 +187,7 @@
                         <input type="password" name="cpassword" id="cpassword" required />
                     </label>
                     <br>
-                    <a class="btn btn-primary btn-sm" type="submit">Register</a>
+                    <input id="signin" type="submit" class="btn btn-primary btn-sm" value="Register"></input>
                 </form>
             </div>
         </div>

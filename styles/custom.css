@@ -1,5 +1,5 @@
 div.overlay {
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(0, 0, 0, 0.25);
     bottom: 0;
     display: -webkit-box;
     display: -moz-box;
@@ -36,7 +36,7 @@ div.overlay > div.login-wrapper > div.login-content > div.login-container form i
     height: 35px;
     padding: 7px;
 }
-div.overlay > div.login-wrapper > div.login-content > div.login-container form a {
+div.overlay > div.login-wrapper > div.login-content > div.login-container form #signin {
     width: 350px;
     height: 40px;
     padding: 10px;
