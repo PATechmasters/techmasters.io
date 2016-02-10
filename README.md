@@ -16,3 +16,5 @@ Due to [caching by CloudFlare](https://support.cloudflare.com/hc/en-us/articles/
 
 ## CC BY-SA 4.0
 This project by [Phillips Academy Techmasters](https://patechmasters.com) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+On the off chance that you're on a scavenger hunt (or something of the sort), maybe you should look for Cam's github...
