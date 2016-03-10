@@ -1,6 +1,10 @@
 # Techmasters' Homepage
 This repository contains Techmasters' website.
 
+The `TMSite2016` branch preserves the website's state at the 2016 board turnover.
+
+To create a historic branch like this, run `git checkout -b TMSite-YEAR gh-pages`.
+
 The `gh-pages` branch is automatically deployed to [our website](https://patechmasters.com).
 
 ## Contributing
