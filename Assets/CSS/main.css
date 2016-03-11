@@ -405,6 +405,7 @@ header .center p{
     width: 60%;
     margin: 0 auto;
     padding-bottom: 3em;
+    min-height: 10em;
 }
 
 #column-left{ 
@@ -530,6 +531,7 @@ footer{
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1;
+        text-align: center;
     }
     
     nav .left{
@@ -585,6 +587,10 @@ footer{
     #faqs{
         margin-bottom: 3em;
     }
+    
+    #join{
+        margin-bottom: 3em;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -619,6 +625,10 @@ footer{
     }
 
     #faq-long{
-        padding-bottom: 37em;
+        padding-bottom: 33em;
+    }
+    
+    #faqs{
+        margin-bottom: 5em;
     }
 }
