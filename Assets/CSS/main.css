@@ -579,7 +579,11 @@ footer{
     }
     
     #faq-long{
-        padding-bottom: 35em;
+        padding-bottom: 30em;
+    }
+    
+    #faqs{
+        margin-bottom: 3em;
     }
 }
 
