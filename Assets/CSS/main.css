@@ -1,0 +1,546 @@
+@font-face{
+    font-family: montserrat;
+    src: url("/Assets/Fonts/montserrat/Montserrat-Regular.otf");
+}
+
+@font-face{
+    font-family: sourcesanspro;
+    src: url("/Assets/Fonts/source-sans-pro/SourceSansPro-Regular.otf");
+}
+
+@font-face{
+    font-family: sourcesansprobold;
+    src: url("/Assets/Fonts/source-sans-pro/SourceSansPro-Bold.otf");
+}
+
+@font-face{
+    font-family: panton;
+    src: url("/Assets/Fonts/panton.otf");
+}
+
+a{
+    text-decoration: none;
+    color: #464646;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #597896;
+}
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+    height:100%;
+    overflow-x: hidden;
+}
+
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+nav{
+    width: 100%;
+    height: 4.5em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.right{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: right;
+}
+
+nav .left{
+    padding-left: 10vw;
+}
+
+nav .right{
+    padding-right: 10vw;
+    font-family: montserrat;
+}
+
+nav .left h1{
+    font-family: montserrat;
+    font-size: 1.4em;
+    color: #2574A9;
+    margin: 0;
+    line-height: calc(4.5em/1.4);
+}
+
+nav .right a{
+    font-size: 1em;
+    line-height: 4.5em;
+    margin-right: 1em;
+}
+
+nav .right .btn{
+    background-color: #2574A9;
+    color: #fff;
+    margin-right: 0;
+    padding: 1.2em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    border-radius: 5px;
+}
+
+header{
+    height: 65vh;
+    width: 100vw;
+    background: -webkit-linear-gradient( rgba(44, 62, 80, 0.55), rgba(44, 62, 80, 0.55)), url("/Assets/Graphics/header.jpeg");
+    background: linear-gradient( rgba(44, 62, 80, 0.55), rgba(44, 62, 80, 0.55)), url("/Assets/Graphics/header.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 1px;
+}
+
+header#members{
+    background: -webkit-linear-gradient( rgba(44, 62, 80, 0.55), rgba(44, 62, 80, 0.55)), url("/Assets/Graphics/club.jpg");
+    background: linear-gradient( rgba(44, 62, 80, 0.55), rgba(44, 62, 80, 0.55)), url("/Assets/Graphics/club.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.center{
+    position: relative;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+header .center{
+    color: #fff;
+    font-family: montserrat;
+}
+
+header .center h1{
+    margin-bottom: 0;
+    font-size: 3em;
+}
+
+header .center p{
+    margin-top: 0.2em;
+}
+
+#body{
+    padding-bottom: 6em;
+}
+
+#about{
+    padding: 1px;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#about h1{
+    color: #464646;
+    font-family: montserrat;
+    font-size: 1.2em;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#about-long{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 3em;
+    -moz-column-gap: 3em;
+    column-gap: 3em;
+    font-family: sourcesanspro;
+    width: 50%;
+    margin: 1em auto;
+    color: #6C6C6C;
+    font-size: 1em;
+}
+
+#join{
+    padding: 1px;
+    width: 100%;
+    height: 15em;
+    background-image: url(/Assets/Graphics/pattern.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #464646;
+}
+
+#join h1{
+    font-family: montserrat;
+    margin-bottom: 0;
+}
+
+#join p{
+    font-family: sourcesanspro;
+    margin-top: 0;
+}
+
+#join #email-input{
+    width: 30%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 2.5em;
+}
+
+#join #email-input #entry_1134060290{
+    width: 70%;
+    border: none;
+    font-family: montserrat;
+    font-size: 0.8em;
+    padding-left: 1em;
+}
+
+#join #email-input #ss-submit{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: none;
+    border-radius: 0;
+    font-family: montserrat;
+    color: #464646;
+    font-size: 0.8em;
+    background-color: #99B9D9;
+    cursor: pointer;
+}
+
+#tools, #roster{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+#tools h1, #roster h1{
+    font-family: montserrat;
+    font-size: 1.5em;
+    color: #464646;
+    margin-bottom: 0;
+}
+
+#tools .subtitle, #roster .subtitle{
+    margin-top: 0;
+    font-family: sourcesanspro;
+    color: #6C6C6C;
+    font-size: 1em;
+    width: 50%;
+    margin: 0 auto 2em;
+}
+
+#roster .subtitle{
+    margin-bottom: 1em;
+}
+
+.app{
+    width: 15em;
+    height: 15em;
+    color: #fff;
+    background-color: #52B3D9;
+    display: inline-block;
+    padding: 1px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    cursor: pointer;
+    position: relative;
+    margin-right: calc(0.2em - 4px);
+    margin-bottom: 0.2em;
+}
+
+.app:hover{
+    color: #d4d4d4;
+}
+
+.app:nth-child(4){
+    background-color: #3498db;
+}
+
+.app:nth-child(5){
+    background-color: #3A539B;
+}
+
+.app:nth-child(6){
+    background-color: #34495e;
+}
+
+.app i{
+    font-size: 3em;
+}
+
+.app .center{
+    top: 50%;
+}
+
+.app p{
+    font-family: montserrat;
+}
+
+.app a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+#board{
+    padding-top: 3em;
+    width: 90%;
+    margin: 0 auto 3em;
+    text-align: center;
+}
+
+.board-member{
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+    vertical-align: text-top;
+    color: #464646;
+}
+
+.board-member-big{
+    width: 40%;
+    margin-bottom: 3em;
+}
+
+.img{
+    width: 15em;
+    height: 15em;
+    border-radius: 100%;
+    margin: 0 auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.board-member:nth-child(1) .img{
+    background-image: url(/Assets/Graphics/Members/ztan.jpg);
+}
+
+.board-member:nth-child(2) .img{
+    background-image: url(/Assets/Graphics/Members/yagarwal.jpg);
+}
+
+.board-member:nth-child(3) .img{
+    background-image: url(/Assets/Graphics/Members/plamkin.jpg);
+}
+
+.board-member:nth-child(4) .img{
+    background-image: url(/Assets/Graphics/Members/jshen.jpg);
+}
+
+.board-member:nth-child(5) .img{
+    background-image: url(/Assets/Graphics/Members/areichenbach.jpg);
+}
+
+.board-member h1{
+    font-family: montserrat;
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+.board-member p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: sourcesanspro;
+}
+
+.board-member .subtitle{
+    font-family: panton;
+    font-size: 1em;
+}
+
+#roster .container{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#roster .left{
+    width: 50%;
+}
+
+#roster .right{
+    text-align: left;
+}
+
+#roster .right li{
+   font-family: sourcesanspro;
+    color: #6C6C6C;
+}
+
+footer{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: montserrat;
+    position: absolute;
+    bottom: 0;
+    width: 80vw;
+    height: 4em;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: #464646;
+}
+
+.fa-heart{
+    color: #c0392b;
+}
+
+*:focus {
+    outline: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    #about h1{
+        width: 60%;    
+    }
+    
+    #about-long{
+        width: 70%;
+    }
+    
+    #board{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #about h1{
+        width: 65%;    
+    }
+    
+    #about-long{
+        width: 75%;
+    }
+    
+    nav .left{
+        padding-left: 5vw;
+    }
+
+    nav .right{
+        padding-right: 5vw;
+    }
+    
+    .img{
+        width: 13em;
+        height: 13em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #about h1{
+        width: 65%;    
+    }
+    
+    #about-long{
+        width: 85%;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+    
+    nav .left{
+        display: none;
+    }
+
+    nav .right{
+        text-align: center;
+        padding-right: 0;
+    }
+    
+    nav .right a{
+        margin-right: 0.5em;
+    }
+    
+    nav .right .btn{
+        background-color: #fff;
+        color: #2574A9;
+        padding: 0;
+        border-radius: 0px;
+    }
+    
+    #join #email-input{
+        width: 60%;
+    }
+    
+    #body{
+        padding-bottom: 3em;
+    }
+    
+    footer{
+        width: 90vw;
+    }
+    
+    #tools .subtitle, #roster .subtitle{
+        width: 90%;
+    }
+    
+    .app{
+        width: 20em;
+        height: 20em;
+    }
+    
+    .board-member{
+        width: 50%;
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #about h1{
+        width: 75%;
+    }   
+    
+    nav .right a{
+        margin-right: 0.2em;
+    }
+    
+    footer{
+        display: block;
+        text-align: center;
+        height: 5em;
+    }
+    
+    footer .right{
+        text-align: center;
+    }
+    
+    #join #email-input{
+        width: 80%;
+    }
+    
+    header .center h1{
+        font-size: 2.5em;
+    }
+    
+    .board-member{
+        width: 95%;
+    }
+
+}

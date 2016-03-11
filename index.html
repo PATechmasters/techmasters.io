@@ -1,236 +1,121 @@
 <!DOCTYPE html>
-
-<!--     0E5BFF BLUE
-         A308FF PURPLE
-         FFA900 Orange
-         FFFD00 Yellow
--->
-
-<html lang="en">
-
+<html>
 <head>
     <meta charset="utf-8">
-
-    <meta name="description" content="Techmasters, a student organization at Phillips Academy Andover that is focused on technology and provides the school with free tech help.">
-    <meta name="author" content="Phillips Academy Techmasters" />
-
-    <meta property="og:title" content="Home" />
-    <meta property="og:site_name" content="Phillips Academy Techmasters" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="Techmasters, a student organization at Phillips Academy Andover that is focused on technology and provides the school with free tech help." />
-
-    <meta property="og:image" content="https://www.patechmasters.com/media/1442353608.ico" />
-
-
-    <title>Home</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/media/1442353608.ico">
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/custom.css">
-
-    <!--Google fonts>-->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js" integrity="sha384-+54fLHoW8AHu3nHtUxs9fW2XKOZ2ZwKHB5olRtKSDTKJIb1Na1EceFZMS8E72mzW" crossorigin="anonymous" async></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/profile.js"></script>
-
-    <!-- Upgrade Insecure Reqests -->
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-
-    <!--Start of tawk.to clickable text Script-->
-    <script type="text/javascript">
-        function toggleChat() {
-            $_Tawk.toggle();
-            return false;
-        }
-    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Techmasters</title>
+    <link href = "/Assets/CSS/main.css" type = "text/css" rel = stylesheet>
+    <link href = "/Assets/icons/css/font-awesome.min.css" type = "text/css" rel = stylesheet>
+    <link rel="shortcut icon" type="image/x-icon" href="/Assets/Graphics/favicon.ico">
 </head>
-
 <body>
-    <br>
-    <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
-        <div class="container">
-            <div class="navbar-header">
-                <a href="../" class="navbar-brand">PATechmasters</a><span class="navbar-brand"> | Campus Tech Support</span>
+    <div id = "wrapper">
+        <nav>
+            <div class = "left">
+                <h1>TECHMASTERS</h1>
             </div>
-            <nav id="bs-navbar" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="../">Home</a>
-                    </li>
-                    <li>
-                        <a href="../join.html">Join the Club</a>
-                    </li>
-                    <li>
-                        <a href="../members.html">Members</a>
-                    </li>
-                    <li>
-                        <a href="../faq.html">FAQ</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Student Tools<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="http://paschedul.es/">Schedules App</a>
-                            </li>
-                            <li><a href="https://printon.andover.edu">On-Campus WiFi Printing</a>
-                            </li>
-                            <li><a href="https://andoverbookexchange.herokuapp.com/">Andover Book Exchange</a>
-                            </li>
-                            <li><a href="https://portal.office.com/start?sku=student">Microsoft Office 365 Student</a>
-                            </li>
-                            <li><a href="https://studentreports.andover.edu/studentreports/Pages/Dashboard.aspx">Student Reports Dashboard</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown" id="account">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"></a>
-                        <ul class="dropdown-menu" role="menu">
+            
+            <div class = "right">
+                <a href = "/members.html">MEMBERS</a>
+                <a href = "/#tools">TOOLS</a>
+                <a href = "/signup.html">JOIN US</a>
+                <a class = "btn" onclick = "toggleChat()" href = "#chat">LIVE CHAT</a>
+            </div>
+        </nav>
+        
+        <header>
+            <div class = "center">
+                <h1>We're here to help</h1>
+                <p>Live chat us if you have any tech problems</p>
+            </div>
+        </header>
+    
+        <div id = "body">
+            <div class = "bodybox" id = "about">
+                <h1>
+                     Techmasters is an on-campus tech help organization. We're also a club if you are interested in all things tech.
+                </h1>
+                <div id = "about-long">
+                    Techmasters originally started out in 1998 as an on-campus tech help organization, assigned with installing Ethernet across campus. Fast forward to 2016, where Techmasters has also become a club for anybody interested in technology. We normally meet for an hour on Sundays to talk about topics such as gadgets, programming, game design, and whatnot. Techmasters is great if you want to learn and discuss modern tech with people just like you. Ultimately, you should become a Techmaster regardless of how good you are at technology. It's a terabyte of fun! 
+                </div>
+            </div>   
+            
+            <div class = "bodybox" id = "join">
+                <div class = "center">
+                    <h1>JOIN US</h1>
+                    <p>Subscribe for the latest updates from Techmasters</p>
+                    <script type="text/javascript">var submitted=false;</script>
+                    <iframe name="hidden_iframe" id="hidden_iframe"
+                    style="display:none;" onload="if(submitted){window.location='/success.html';}"></iframe>
+                    <form action="https://docs.google.com/forms/d/1TCytxzUSjiQVgl0frOyV4evS4bR2skvSry3hGYgxZ0U/formResponse" method="POST" id="email-input" target="hidden_iframe" onsubmit="submitted=true;">
+                            <input type="text" name="entry.1134060290" value="" class="text ss-q-short" id="entry_1134060290" dir="auto" aria-label="Please enter your PAnet username: Example: rmcstudent Please enter your username only. (Not the @andover.edu part.)" aria-required="true" required="" pattern="^(?!^.*andover.edu.*$).*$" title="Please enter your username only. (Not the @andover.edu part.)" placeholder = "PAnet username">
+                                        
+                            <input type="hidden" name="draftResponse" value="[,,&quot;-2847211786624446836&quot;]
+">
+                            <input type="hidden" name="pageHistory" value="0">
 
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <hr>
+                            <input type="hidden" name="fvv" value="0">
 
-    <div id="fadein" class="blue">
-        <div class="container">
-            <div class="headingclass">
-                <h1>We're here to help.</h1>
-                <br>
-                <a class="btn btn-primary btn-lg" onclick="toggleChat()" href="#chat" style="width: 20%;">Live Chat Us Now</a>
-                <a class="btn btn-primary btn-lg" href="faq.html" style="width: 20%;">Check out our FAQ</a>
+                            <input type="hidden" name="fbzx" value="-2847211786624446836">
+
+                            <input type="submit" name="submit" value="Subscribe" id="ss-submit" class="jfk-button jfk-button-action ">
+                    </form>
+                </div>
+            </div>
+            
+            <div class = "bodybox" id = "tools">
+                <h1>Get Started</h1>
+                <p class = "subtitle">With a collection of apps and tools available for Phillips Academy students</p>
+                <div class = "app">
+                    <a href = "http://paschedul.es" target = "_blank"></a>
+                    <div class = "center">
+                        <i class = "fa fa-calendar"></i>
+                        <p>PA SCHEDULES</p>
+                    </div>
+                </div>
+                <div class = "app">
+                    <a href = "https://printon.andover.edu/cps/" target = "_blank"></a>
+                    <div class = "center">
+                        <i class = "fa fa-print"></i>
+                        <p>PRINT ON CAMPUS</p>
+                    </div>
+                </div>
+                <div class = "app">
+                    <a href = "https://portal.office.com/start?sku=student" target = "_blank"></a>
+                    <div class = "center">
+                        <i class = "fa fa-file-word-o"></i>
+                        <p>MICROSOFT OFFICE</p>
+                    </div>
+                </div>
+                <div class = "app">
+                    <a href = "https://andoverbookexchange.herokuapp.com/" target = "_blank"></a>
+                    <div class = "center">
+                        <i class = "fa fa-book"></i>
+                        <p>BOOK EXCHANGE</p>
+                    </div>
+                </div>
             </div>
         </div>
+    
+        <footer>
+            <div class = "left">Made with <i class = "fa fa-heart"></i> in <a href = "http://www.andover.edu/Pages/default.aspx" target = "_blank" title = "A > E">Phillips Academy</a></div>
+            <div class = "right"><a href = "https://creativecommons.org/licenses/by-sa/4.0/" target = "_blank">© 2016 Techmasters</a></div>
+        </footer>
     </div>
-    <br>
-    <div class="container">
-        <div id="shiftup">
-            <h1>Hang Tight.</h1>
-            <hr>
-            <br>
-            <p>We're working on the website right now. Some links might not work, some spellings might be worng, and pages will be incomplete, but please bear with us! The Live Chat should be working though, so don't be scared to press that button if you need help!</p>
-            <p>Oh and also, if you don't have Microsoft Office yet, check out the Student Tools in the upper right or click the Office tile below. You can sign up with your Andover email and get it for free.</p>
-            <p>CNEG 2: Cvpx nal dhrfgvba sebz gur obneq ncc. Jevgr gur zbfg ragregnvavat erfcbafr lbh pna naq fraq vg gb Pnz (pjbat); lbh jvyy or njneqrq cbvagf naq gur orfg barf jvyy or xrcg sbe cbfgrevgl. Vs lbh qvqa'g pbzcyrgr cneg 1, lbh fubhyq fgvyy qb vg!</p>
-            <div id="Part2" style="display:none">The magic number is 13.</div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <div class="container">
-        <div class="row">
-            <div align="center" id="tile1" class="col-md-3">
-                <a href="http://paschedul.es/" target="_blank">
-                    <img src="media/calendar.png" height=280px width=280px>
-                </a>
-            </div>
-            <div align="center" id="tile2" class="col-md-3">
-                <a href="https://portal.office.com/start?sku=student" target="_blank">
-                    <img src="media/office.png" height="280px" width=280px>
-                </a>
-            </div>
-            <div align="center" id="tile3" class="col-md-3">
-                <a href="https://andoverbookexchange.herokuapp.com/" target="_blank">
-                    <img src="media/books.png" height=280px width=280px>
-                </a>
-            </div>
-            <div align="center" id="tile4" class="col-md-3">
-                <a href="https://printon.andover.edu/" target="_blank">
-                    <img src="media/navyprinter.png" height=280px width=280px>
-                </a>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
+     
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/55091294059b265f542450db/default';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+
+    <script src = "/Assets/JS/main.js"></script>
 </body>
-
-<!-- Login Window -->
-<div class="overlay" style="display: none;">
-    <div class="login-wrapper">
-        <div class="login-content">
-
-            <a class="close">x</a>
-            <p><em>This doesn't work yet.</em>
-            </p>
-            <h3>Sign in</h3>
-            <div class="login-container">
-                <form method="post">
-                    <label for="email">
-                        <input type="text" name="username" id="username" placeholder="Andover E-Mail" pattern="[a-z0-9._%+-]+@andover.edu" required="required" />
-                    </label>
-                    <br>
-                    <label for="password">
-                        <input type="password" name="password" id="password" placeholder="Password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
-                    </label>
-                    <br>
-                    <input id="signin" type="submit" class="btn btn-primary btn-sm" value="Log In"></input>
-                </form>
-            </div>
-            <br>
-            <hr>
-            <br>
-
-            <h3>Haven't Registered Yet?</h3>
-            <div class="login-container">
-                <form method="post">
-                    <label for="email">
-                        Andover E-Mail:
-                        <br>
-                        <input type="text" name="username" id="username" pattern="[a-z0-9._%+-]+@andover.edu" required>
-                    </label>
-                    <br>
-                    <label for="password">
-                        Password:
-                        <br>
-                        <input type="password" name="password" id="password" pattern="(?=.*\d).{6,}" required />
-                        <p>Must contain at least 1 number and 6 characters.</p>
-                    </label>
-
-                    <label for="cpassword">
-                        Confirm Password:
-                        <br>
-                        <input type="password" name="cpassword" id="cpassword" required />
-                    </label>
-                    <br>
-                    <input id="signin" type="submit" class="btn btn-primary btn-sm" value="Register"></input>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
-<footer>
-    <div class="container">
-        <hr>
-        <div class="row">
-            <div class="col-md-6" align="left">
-                <p>&copy; 2016 Techmasters - Phillips Academy Andover</p>
-            </div>
-            <div class="col-md-6" align="right">
-                <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Licensed under Creative Commons BY-SA 4.0</a>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-</footer>
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var $_Tawk_API = {},
-        $_Tawk_LoadStart = new Date();
-    (function () {
-        var s1 = document.createElement("script"),
-            s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = 'https://embed.tawk.to/55091294059b265f542450db/default';
-        s1.charset = 'UTF-8';
-        s1.setAttribute('crossorigin', '*');
-        s0.parentNode.insertBefore(s1, s0);
-    })();
-</script>
-<!--End of Tawk.to Script-->
-
 </html>

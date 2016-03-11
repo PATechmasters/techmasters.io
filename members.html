@@ -1,227 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <meta charset="utf-8">
-
-    <meta name="description" content="Techmasters, a Phillips Academy student organization that is focused on technology and provides the school with free tech help.">
-    <meta name="author" content="Phillips Academy Techmasters" />
-
-    <meta property="og:title" content="Members" />
-    <meta property="og:site_name" content="Phillips Academy Techmasters" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="Techmasters, a Phillips Academy student organization that is focused on technology and provides the school with free tech help." />
-    <meta property="og:image" content="https://www.patechmasters.com/media/1442353608.ico" />
-
-    <title>Members</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/media/1442353608.ico">
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/custom.css">
-
-    <!--Google fonts>-->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-    <!--JavaScript scripts-->
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js" integrity="sha384-+54fLHoW8AHu3nHtUxs9fW2XKOZ2ZwKHB5olRtKSDTKJIb1Na1EceFZMS8E72mzW" crossorigin="anonymous" async></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/profile.js"></script>
-
-    <!-- Upgrade Insecure Reqests -->
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Techmasters</title>
+    <link href = "/Assets/CSS/main.css" type = "text/css" rel = stylesheet>
+    <link href = "/Assets/icons/css/font-awesome.min.css" type = "text/css" rel = stylesheet>
+    <link rel="shortcut icon" type="image/x-icon" href="/Assets/Graphics/favicon.ico">
 </head>
-
 <body>
-    <br>
-    <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
-        <div class="container">
-            <div class="navbar-header">
-                <a href="../" class="navbar-brand">PATechmasters</a><span class="navbar-brand"> | Campus Tech Support</span>
+    <div id = "wrapper">
+        <nav>
+            <div class = "left">
+                <h1>TECHMASTERS</h1>
             </div>
-            <nav id="bs-navbar" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="../">Home</a>
-                    </li>
-                    <li>
-                        <a href="../join.html">Join the Club</a>
-                    </li>
-                    <li>
-                        <a href="../members.html">Members</a>
-                    </li>
-                    <li>
-                        <a href="../faq.html">FAQ</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Student Tools<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="http://paschedul.es/">Schedules App</a>
-                            </li>
-                            <li><a href="https://printon.andover.edu">On-Campus WiFi Printing</a>
-                            </li>
-                            <li><a href="https://andoverbookexchange.herokuapp.com/">Andover Book Exchange</a>
-                            </li>
-                            <li><a href="https://portal.office.com/start?sku=student">Microsoft Office 365 Student</a>
-                            </li>
+            
+            <div class = "right">
+                <a href = "/">HOME</a>
+                <a href = "/members.html">MEMBERS</a>
+                <a href = "/#tools">TOOLS</a>
+                <a href = "/signup.html">JOIN US</a>
+                <a class = "btn" onclick = "toggleChat()" href = "#chat">LIVE CHAT</a>
+            </div>
+        </nav>
+        
+        <header id = "members">
+            <div class = "center">
+                <h1>Meet the team</h1>
+                <p>We don't bite</p>
+            </div>
+        </header>
+    
+        <div id = "body">
+            <div class = "bodybox" id = "board">
+                <div class = "board-member board-member-big">
+                    <div class = "img"></div>
+                    <h1>Tony Zhaocheng Tan</h1>
+                    <p class = "subtitle">Co-President</p>
+                    <p>
+                        Hi! I am Tony. I’m interested in (almost) all things tech. I know Java, Python, and some other things, but I am particularly fascinated by information security and applied cryptography. Looking forward to a great year!
+                    </p>
+                </div>
+                <div class = "board-member board-member-big">
+                    <div class = "img"></div>
+                    <h1>Yatharth Agarwal</h1>
+                    <p class = "subtitle">Co-President</p>
+                    <p>
+                        The internet remembers.
+                    </p>
+                </div>
+                <div class = "board-member">
+                    <div class = "img"></div>
+                    <h1>Phillip Lamkin</h1>
+                    <p class = "subtitle">Assistant President</p>
+                    <p>
+                        Hey, my name's Philip and I'm a returning upper. I've been part of Techmasters for the entire time I've been here, and it's been great. I do a bit of programming in Ruby and have experience in telling people their wireless printers won't work.
+                    </p>
+                </div>
+                <div class = "board-member">
+                    <div class = "img"></div>
+                    <h1>Jeffrey Shen</h1>
+                    <p class = "subtitle">Webmaster</p>
+                    <p>
+                        What's up! I'm Jeffrey, a 9th grader at Phillips Academy who's interested in all things tech. I know a handful of programming languages, and am particularly interested in app development and web design.
+                    </p>
+                </div>
+                <div class = "board-member">
+                    <div class = "img"></div>
+                    <h1>Alex Reichenbach</h1>
+                    <p class = "subtitle">Server Administrator</p>
+                    <p>
+                        Hi all! I'm Alex. I'm a returning lower currently living in Chicago. I enjoy all types of making. I've competed in numerous CTFs and have programmed in many languages. I've also built in numerous mediums, including wood, metal, plastic, and basically anything else I can get my hands on. From both of these interests, I conclude that bash and duct tape are creations of heaven.
+                    </p>
+                </div>
+            </div>
+            
+            <div class = "bodybox" id = "join">
+                <div class = "center">
+                    <h1>JOIN THE TEAM</h1>
+                    <p>Subscribe to be added to the mailing list</p>
+                    <script type="text/javascript">var submitted=false;</script>
+                    <iframe name="hidden_iframe" id="hidden_iframe"
+                    style="display:none;" onload="if(submitted){window.location='/success.html';}"></iframe>
+                    <form action="https://docs.google.com/forms/d/1TCytxzUSjiQVgl0frOyV4evS4bR2skvSry3hGYgxZ0U/formResponse" method="POST" id="email-input" target="hidden_iframe" onsubmit="submitted=true;">
+                            <input type="text" name="entry.1134060290" value="" class="text ss-q-short" id="entry_1134060290" dir="auto" aria-label="Please enter your PAnet username: Example: rmcstudent Please enter your username only. (Not the @andover.edu part.)" aria-required="true" required="" pattern="^(?!^.*andover.edu.*$).*$" title="Please enter your username only. (Not the @andover.edu part.)" placeholder = "PAnet username">
+                                        
+                            <input type="hidden" name="draftResponse" value="[,,&quot;-2847211786624446836&quot;]
+">
+                            <input type="hidden" name="pageHistory" value="0">
+
+                            <input type="hidden" name="fvv" value="0">
+
+                            <input type="hidden" name="fbzx" value="-2847211786624446836">
+
+                            <input type="submit" name="submit" value="Subscribe" id="ss-submit" class="jfk-button jfk-button-action ">
+                    </form>
+                </div>
+            </div>
+            
+            <!--
+            <div class = "bodybox" id = "roster">
+                <h1>Club Roster</h1>
+                <p class = "subtitle">The current members of Techmasters</p>
+                <div class = "container">
+                    <div class = "left">
+                        <h1><i class = "fa fa-download"></i> Download</h1>
+                    </div>
+                    <div class = "right">
+                        <ul>
+                            <li>Nick Jasaitis</li>
+                            <li>Miles McCain</li>
+                            <li>Darcy Meyer</li>
+                            <li>Mia LaRocca</li>
+                            <li>Angie Lara</li>
+                            <li>Sarp Orgul</li>
+                            <li>Katherine Payne</li>
+                            <li>Oliver Pennington</li>
+                            <li>Nick Rauen</li>
+                            <li>Jason Yung</li>
                         </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <hr>
-    <div class="orange">
-        <div class="container">
-            <div class="headingclass">
-                <h1>Meet the Team.</h1>
-                <br>
-                <p>We don't bite.</p>
+                    </div>
+                </div>
             </div>
+            -->
+            
         </div>
+    
+        <footer>
+            <div class = "left">Made with <i class = "fa fa-heart"></i> in <a href = "http://www.andover.edu/Pages/default.aspx" target = "_blank" title = "A > E">Phillips Academy</a></div>
+            <div class = "right"><a href = "https://creativecommons.org/licenses/by-sa/4.0/" target = "_blank">© 2016 Techmasters</a></div>
+        </footer>
     </div>
-    <br>
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="membercontainer">
-                    <img src="media/cwong2_circle.png" width="250" height="250">
-                    <h2 style="color:#0E5BFF;">Cameron Wong</h2>
-                    <h4>Co-President</h4>
-                    <p>Yo! I'm Cam, a four year senior from California. I've been hobby programming for most of my life, and I've picked up a lot of languages over that time (I'd say I'm proficient at Python, Java, LISP, C++, C# and ARM Assembly, and can use Ruby/javascript and Haskell pretty comfortably as well), and I'm always looking for new and interesting projects.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="membercontainer">
-                    <img src="media/kxia1_circle.png" width="250" height="250">
-                    <h2 style="color:#0E5BFF;">Karen Xia</h2>
-                    <h4>Co-President</h4>
-                    <p>I'm Karen. Formerly from Michigan, I'm currently from somewhere-in-California. I know some Python, Java, Ruby, and CSS, but do not how to end this bio.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="membercontainer">
-                    <img src="media/plamkin_circle.png" width="225" height="225">
-                    <h3 style="color:#0E5BFF;">Philip Lamkin</h3>
-                    <h4>Assistant President</h4>
-                    <p>Hey, my name's Philip and I'm a returning upper. I've been part of Techmasters for the entire time I've been here, and it's been great. I do a bit of programming in Ruby and have experience in telling people their wireless printers won't work.</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="membercontainer">
-                    <img src="media/ztan_circle.png" width="225" height="225">
-                    <h3 style="color:#0E5BFF;">Tony Zhaocheng Tan</h3>
-                    <h4>Administrative Assistant</h4>
-                    <p>Hi! I am Tony, a returning Upper interested in almost everything and anything that has to do with technology. I know Java, Python, and some other things, but I am particularly interested in cryptography and information security.</p>
-                    <div style="display:none">Wow, you found my data! Maybe you should ask Cam about "l33thack3rz"?</div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="membercontainer">
-                    <img src="media/elee_circle.png" width="225" height="225">
-                    <h3 style="color:#0E5BFF;">Eric Lee</h3>
-                    <h4>Webmaster</h4>
-                    <p>Hey! I'm a three year Senior with an interest in all things Tech. DSLRs, R/C vehicles, computers, watches, smart thermometers, you name it. As an avid enthusiast of computer science, I've taught myself HTML/CSS, Javascript, PHP, C#, and some C++. I learned Java through Andover's AP Computer Science course and some personal projects.</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="membercontainer">
-                    <img src="/media/yagarwal_circle.png" width="225" height="225">
-                    <h3 style="color:#0E5BFF;">Yatharth Agarwal</h3>
-                    <h4>Server Administrator</h4>
-                    <p>"Secretly a feline ninja, I like theoretically turning spheres inside out."</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Wow! You found my secret data! Come up to Cam or Tony and ask about "l33thackerz"!  -->
-    <br>
-    <hr>
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h1 align="center">Club Roster</h1>
-                <hr>
-                <br>
-                <ol>
-                    <li>Sarp Orgul '16</li>
-                    <li>Mia LaRocca '16</li>
-                    <li>Nick Rauen '16</li>
-                    <li>Angellica "Angie" Lara '16</li>
-                    <li>Jason Yung '18</li>
-                    <li>Darcy Meyer '18</li>
-                    <li>Alex Reichenbach '18</li>
-                    <li>Oliver Pennington '18</li>
-                    <li>Katherine Payne '19</li>
-                    <li>Miles McCain '19</li>
-                    <li>Nick Jasaitis '19</li>
-                    <li>//TODO: Add People</li>
-                </ol>
-            </div>
-            <div class="col-md-6">
-                <h1 align="center">Notable Alumni</h1>
-                <hr>
-                <br>
-                <ul>
-                    <li>Sebastian Fallert '98</li>
-                    <p>Instrumental in getting Techmasters first Student Server and made the first online workorder system.</p>
-                    <li>Tristan Perich '00</li>
-                    <p>Now a composer @ http://tristanperich.com/</p>
-                    <li>Jeff Zampieron '00</li>
-                    <p>Ran Techmasters 1998-2000.</p>
-                    <li>Jules LaPlace '01</li>
-                    <p>Ran Techmasters 2000-2001.</p>
-                    <li>Hal Parker '03</li>
-                    <p></p>
-                    <li>Patrick Niedzielski '13</li>
-                    <p>Ran Techmasters.</p>
-                    <li>//TODO: Add People</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <br>
+     
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/55091294059b265f542450db/default';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+
+    <script src = "/Assets/JS/main.js"></script>
 </body>
-
-<footer>
-    <div class="container">
-        <hr>
-        <div class="row">
-            <div class="col-md-6" align="left">
-                <p>&copy; 2016 Techmasters - Phillips Academy Andover</p>
-            </div>
-            <div class="col-md-6" align="right">
-                <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Licensed under Creative Commons BY-SA 4.0</a>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-</footer>
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var $_Tawk_API = {},
-        $_Tawk_LoadStart = new Date();
-    (function () {
-        var s1 = document.createElement("script"),
-            s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = 'https://embed.tawk.to/55091294059b265f542450db/default';
-        s1.charset = 'UTF-8';
-        s1.setAttribute('crossorigin', '*');
-        s0.parentNode.insertBefore(s1, s0);
-    })();
-</script>
-<!--End of Tawk.to Script-->
-
 </html>

@@ -1,0 +1,87 @@
+@font-face{
+    font-family: montserrat;
+    src: url("/Assets/Fonts/montserrat/Montserrat-Regular.otf");
+}
+
+@font-face{
+    font-family: sourcesanspro;
+    src: url("/Assets/Fonts/source-sans-pro/SourceSansPro-Regular.otf");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/Assets/Graphics/cover.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#center{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0 auto;
+    text-align: center;
+    width: 30em;
+    border-radius: 5px;
+    width: 30em;
+    border: 1px solid #788086;
+    background-color: #F2F2F2;
+    padding: 3em;
+    box-sizing: border-box;
+}
+
+.fa-times{
+    color: #9F9F9F;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
+
+h1{
+    font-family: montserrat;
+    color: #464646;
+}
+
+.text{
+    width: 24em;
+    height: 2.7em;
+    border: 1px solid #F2F2F2;
+    padding-left: 1em;
+    box-sizing: border-box;
+    font-family: sourcesanspro;
+    font-size: 1em;
+    color: #A9A9A9;
+    margin-bottom: 0;
+}
+
+#ss-submit{
+    width: 23.95em;
+    background-color: #6EBAEE;
+    color: #FFFEFD;
+    border: none;
+    padding: 1px;
+    font-family: sourcesanspro;
+    height: 2.7em;
+    font-size: 1em;
+    margin-left: -2.5px;
+    cursor: pointer;
+}
+
+p{
+    font-family: sourcesanspro;
+}
+
+*:focus{
+    outline: 0;
+}
