@@ -345,7 +345,7 @@ header .center p{
 }
 
 .board-member:nth-child(4) .img{
-    background-image: url(/Assets/Graphics/Members/jshen.jpg);
+    background-image: url(/Assets/Graphics/Members/jshen_fixed.jpg);
 }
 
 .board-member:nth-child(5) .img{
