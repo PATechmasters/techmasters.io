@@ -167,6 +167,10 @@ header .center p{
     font-size: 1em;
 }
 
+#about-long a{
+    font-family: sourcesansprobold;
+}
+
 #join{
     padding: 1px;
     width: 100%;
@@ -220,7 +224,7 @@ header .center p{
     cursor: pointer;
 }
 
-#tools, #roster{
+#tools, #roster, #faqs{
     padding-top: 3em;
     padding-bottom: 3em;
     text-align: center;
@@ -228,14 +232,19 @@ header .center p{
     margin: 0 auto;
 }
 
-#tools h1, #roster h1{
+#faqs{
+    width: 100vw;
+    background-color: #ECECEC;
+}
+
+#tools h1, #roster h1, #faqs h1{
     font-family: montserrat;
     font-size: 1.5em;
     color: #464646;
     margin-bottom: 0;
 }
 
-#tools .subtitle, #roster .subtitle{
+#tools .subtitle, #roster .subtitle, #faqs .subtitle{
     margin-top: 0;
     font-family: sourcesanspro;
     color: #6C6C6C;
@@ -244,7 +253,7 @@ header .center p{
     margin: 0 auto 2em;
 }
 
-#roster .subtitle{
+#roster .subtitle, #faqs .subtitle{
     margin-bottom: 1em;
 }
 
@@ -391,6 +400,49 @@ header .center p{
     color: #6C6C6C;
 }
 
+#faq-long{
+    text-align: left;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 3em;
+}
+
+#column-left{ 
+    float: left; 
+    width: 31%; 
+}
+
+#column-right{ 
+    float: right; 
+    width: 31%; 
+}
+
+#column-center{ 
+    display: inline-block; 
+    width: 31%; 
+    margin-left: 3.3%;
+    margin-right: 3.3%;
+}
+
+#faq-long h1{
+    font-size: 1.3em;
+    color: #464646;
+    margin-bottom: 0;
+}
+
+#faq-long section h1{
+    font-size: 1em;
+    color: #464646;
+    margin-bottom: 0;
+}
+
+#faq-long p{
+    font-size: 0.9em;
+    margin-top: 0;
+    color: #6c6c6c;
+    font-family: montserrat;
+}
+
 footer{
     display: -webkit-box;
     display: -webkit-flex;
@@ -416,6 +468,12 @@ footer{
     outline: 0;
 }
 
+@media screen and (max-width: 1200px) {
+    #faq-long{
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     #about h1{
         width: 60%;    
@@ -427,6 +485,15 @@ footer{
     
     #board{
         width: 95%;
+    }
+    
+    #column-center, #column-left, #column-right{
+        width: 100%;
+        margin: 0;
+    }
+    
+    #faq-long{
+        padding-bottom: 25em;
     }
 }
 
@@ -453,7 +520,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
     #about h1{
         width: 65%;    
     }
@@ -497,7 +564,7 @@ footer{
         width: 90vw;
     }
     
-    #tools .subtitle, #roster .subtitle{
+    #tools .subtitle, #roster .subtitle, #faqs .subtitle{
         width: 90%;
     }
     
@@ -509,6 +576,10 @@ footer{
     .board-member{
         width: 50%;
         margin-bottom: 2em;
+    }
+    
+    #faq-long{
+        padding-bottom: 35em;
     }
 }
 
@@ -543,4 +614,7 @@ footer{
         width: 95%;
     }
 
+    #faq-long{
+        padding-bottom: 37em;
+    }
 }
