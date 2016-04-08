@@ -187,6 +187,7 @@ header .center p{
     background-image: url(/Assets/Graphics/pattern-2.png);
     background-position: bottom center;
     position: relative;
+    height: 13.5em;
 }
 
 #pactf a{
@@ -198,9 +199,18 @@ header .center p{
     height: 100%;
 }
 
+#pactf .center{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 #join h1, #pactf h1{
     font-family: montserrat;
     margin-bottom: 0;
+}
+
+#pactf h1{
+    font-size: 1.75em;
 }
 
 #join p, #pactf p{
