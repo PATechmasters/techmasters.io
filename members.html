@@ -19,11 +19,21 @@
             <div class = "right">
                 <a href = "/">HOME</a>
                 <a href = "/members.html">MEMBERS</a>
+                <a href = "/techguide.html">TECH GUIDE</a>
                 <a href = "/signup.html">JOIN US</a>
                 <a class = "btn" href = "/help.html">HELP ME!</a>
+                <a id = "menu" onclick = "dropdown()" hidden><i class = "fa fa-bars"></i></a>
             </div>
         </nav>
         
+        <div id = "dropdown" hidden>
+            <section><a href = "/">HOME</a></section>
+            <section><a href = "/members.html">MEMBERS</a></section>
+            <section><a href = "/techguide.html">TECH GUIDE</a></section>
+            <section><a href = "/signup.html">JOIN US</a></section>
+            <section><a href = "/help.html">HELP ME!</a></section>
+        </div>
+
         <header id = "members">
             <div class = "center">
                 <h1>Meet the team</h1>
@@ -97,32 +107,32 @@
                     </form>
                 </div>
             </div>
-            
-            <!--
+
             <div class = "bodybox" id = "roster">
-                <h1>Club Roster</h1>
-                <p class = "subtitle">The current members of Techmasters</p>
-                <div class = "container">
-                    <div class = "left">
-                        <h1><i class = "fa fa-download"></i> Download</h1>
-                    </div>
-                    <div class = "right">
-                        <ul>
-                            <li>Nick Jasaitis</li>
-                            <li>Miles McCain</li>
-                            <li>Darcy Meyer</li>
-                            <li>Mia LaRocca</li>
-                            <li>Angie Lara</li>
-                            <li>Sarp Orgul</li>
-                            <li>Katherine Payne</li>
-                            <li>Oliver Pennington</li>
-                            <li>Nick Rauen</li>
-                            <li>Jason Yung</li>
-                        </ul>
-                    </div>
+                <div id = "current">
+                    <h1>Club Roster</h1>
+                    <hr>
+                    <ul>
+                        <li>Nick Jasaitis '19</li>
+                        <li>Miles McCain '19</li>
+                        <li>Katherine Payne '19</li>
+                        <li>Darcy Meyer '18</li>
+                        <li>Jason Yung '18</li>
+                        <li>Oliver Pennigton '18</li>
+                    </ul>
+                </div>
+                <div id = "wduty">
+                    <h1>Work Duty</h1>
+                    <hr>
+                    <ul>
+                        <li>Lior Hirschfield '17</li>
+                        <li>Jason Yung '18</li>
+                        <li>Phillip Lamkin '17</li>
+                        <li>Oliver Pennigton '18</li>
+                        <li>Yatharth Agarwal '17</li>
+                    </ul>
                 </div>
             </div>
-            -->
             
         </div>
     
@@ -144,6 +154,7 @@
         })();
     </script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src = "/Assets/JS/main.js"></script>
 </body>
 </html>

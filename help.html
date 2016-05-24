@@ -19,11 +19,21 @@
             <div class = "right">
                 <a href = "/">HOME</a>
                 <a href = "/members.html">MEMBERS</a>
+                <a href = "/techguide.html">TECH GUIDE</a>
                 <a href = "/signup.html">JOIN US</a>
                 <a class = "btn" href = "/help.html">HELP ME!</a>
+                <a id = "menu" onclick = "dropdown()" hidden><i class = "fa fa-bars"></i></a>
             </div>
         </nav>
         
+        <div id = "dropdown" hidden>
+            <section><a href = "/">HOME</a></section>
+            <section><a href = "/members.html">MEMBERS</a></section>
+            <section><a href = "/techguide.html">TECH GUIDE</a></section>
+            <section><a href = "/signup.html">JOIN US</a></section>
+            <section><a href = "/help.html">HELP ME!</a></section>
+        </div>
+
         <header>
             <div class = "center">
                 <h1>Getting Help</h1>
@@ -67,7 +77,7 @@
                         </section>
                         <section>
                             <h1>My wired printer won't work</h1>
-                            <p>This is most likely due to the correct drivers being installed. Install the driver included with the printer (A disk or a link to a website was most likely included with the printer), and the printer should work.</p>
+                            <p>For your printer to work, you need to install the correct drivers. Install the driver included with the printer (A disk or a link to a website was most likely included with the printer), and the printer should work.</p>
                         </section>
                         <section>
                             <h1>My browser can't load PrintOn</h1>
@@ -108,6 +118,7 @@
         })();
     </script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src = "/Assets/JS/main.js"></script>
 </body>
 </html>

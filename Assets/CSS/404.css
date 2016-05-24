@@ -5,29 +5,23 @@
 
 body{
     margin: 0;
-    padding: 0;
+    padding: 1px;
 }
 
 #wrapper{
     height: 100vh;
     width: 100vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url(/Assets/Graphics/404.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    padding: 1px;
 }
 
 #center{
-    top: 35%;
+    top: 40%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     position: relative;
     text-align: center;
     font-family: montserrat;
-    color: #f5f5f5;
+    color: #464646;
 }
 
 #center h1{
@@ -48,5 +42,5 @@ body{
 }
 
 #center a:hover{
-    color: #d4d4d4;
+    color: #909090;
 }
