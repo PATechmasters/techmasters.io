@@ -8,7 +8,7 @@ function dropdown(){
 }
 
 $( document ).ready(function() {
-    if($(window).width() < 750){
+    if($(window).width() < 1100){
         //Create dropdown
         $("nav .right a").hide();
         $("#menu").show();
@@ -20,7 +20,7 @@ $( document ).ready(function() {
 });
 
 $(window).resize(function() {
-    if($(window).width() < 750){
+    if($(window).width() < 1100){
         //Create dropdown
         $("nav .right a").hide();
         $("#menu").show();

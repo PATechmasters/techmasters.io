@@ -1,79 +1,223 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Techmasters</title>
-    <link href = "/Assets/CSS/main.css" type = "text/css" rel = stylesheet>
-    <link href = "/Assets/icons/css/font-awesome.min.css" type = "text/css" rel = stylesheet>
+    <link href="/Assets/CSS/main.css" type="text/css" rel= stylesheet>
+    <link href="/Assets/icons/css/font-awesome.min.css" type="text/css" rel=stylesheet>
     <link rel="shortcut icon" type="image/x-icon" href="/Assets/Graphics/favicon.ico">
 </head>
+
 <body>
-    <div id = "wrapper">
+    <div id="wrapper">
         <nav>
-            <div class = "left">
-                <a href = "/"><h1>TECHMASTERS</h1></a>
+            <div class="left">
+                <a href="/"><h1>TECHMASTERS</h1></a>
             </div>
 
-            <div class = "right">
-                <a href = "/">HOME</a>
-                <a href = "/members.html">MEMBERS</a>
-                <a href = "/techguide.html">TECH GUIDE</a>
-                <a href = "/signup.html">JOIN US</a>
-                <a class = "btn" href = "/help.html">HELP ME!</a>
-                <a id = "menu" onclick = "dropdown()" hidden><i class = "fa fa-bars"></i></a>
+            <div class="right">
+                <a href="/">HOME</a>
+                <a href="/members.html">MEMBERS</a>
+                <a href="/techguide.html">TECH GUIDE</a>
+                <!--<a href = "/apps.html">STUDENT TOOLS</a>-->
+                <a href="/signup.html">JOIN US</a>
+                <a class="btn" href="/help.html">HELP ME!</a>
+                <a id="menu" onclick="dropdown()" hidden><i class = "fa fa-bars"></i></a>
             </div>
         </nav>
 
-        <div id = "dropdown" hidden>
-            <section><a href = "/">HOME</a></section>
-            <section><a href = "/members.html">MEMBERS</a></section>
-            <section><a href = "/techguide.html">TECH GUIDE</a></section>
-            <section><a href = "/signup.html">JOIN US</a></section>
-            <section><a href = "/help.html">HELP ME!</a></section>
+        <div id="dropdown" hidden>
+            <section><a href="/">HOME</a></section>
+            <section><a href="/members.html">MEMBERS</a></section>
+            <section><a href="/techguide.html">TECH GUIDE</a></section>
+            <!--<section><a href = "/apps.html">STUDENT TOOLS</a></section>-->
+            <section><a href="/signup.html">JOIN US</a></section>
+            <section><a href="/help.html">HELP ME!</a></section>
         </div>
 
-        <header id = "techguide">
-            <div class = "center">
+        <header id="techguide">
+            <div class="center">
                 <h1>Tech Guide</h1>
                 <p>A complete packet of tech help for new students</p>
                 <br>
-                <a class = "btn" href = "/Assets/techguide.pdf" download>Download</a>
-                <a class = "btn" href = "/Assets/techguide.pdf" target="_blank">View</a>
+                <a class="btn" href="/Assets/techguide.pdf" download>Download</a>
+                <a class="btn" href="/Assets/techguide.pdf" target="_blank">View</a>
             </div>
         </header>
 
-        <div id = "body">
+        <div id="body">
 
-            <div class = "bodybox" id = "about">
-                <h1>Techmaster's "Tech Help Guide" is a comprehensive packet of the most common tech issues that PA students have designed for new students</h1>
+            <div class="bodybox" id="techguide-accordion">
+
+                <h1>Internet: </h1>
+                <ul class="accordion">
+                    <hr>
+                    <li class="q">
+                        Connecting to Andover WiFi
+                        <i class = "fa fa-chevron-down"></i>
+                    </li>
+                    <li class="a">
+                        Find “PASTUDENT” in your computer’s network list. For the username and password, use the same credentials that you use to log into PANet and Canvas.
+                    </li>
+                    <hr>
+
+                </ul>
+
+                <h1>Printers: </h1>
+                <ul class="accordion">
+
+                    <hr>
+                    <li class="q">
+                        My wireless printer won't work
+                        <i class = "fa fa-chevron-down"></i>
+                    </li>
+                    <li class="a">
+                        Unfortunately we <strong>cannot</strong> help you with this problem. This is because Andover’s Wifi runs on a different security protocol than what most wireless printers are designed to run on, so your printer will not work.
+                    </li>
+                    <hr>
+                    <li class="q">
+                        My wired printer won't work
+                        <i class = "fa fa-chevron-down"></i>
+                    </li>
+                    <li class="a">
+                        For your wired printer to work, you need to have the correct drivers for the printer installed. A CD or a link with the driver should have been provided when you purchased the printer, and all you need to do is download and install the driver. If you misplaced these, try searching your printer model name online to find drivers for it.
+                    </li>
+                    <hr>
+                    <li class="q">
+                        Printing on campus
+                        <i class = "fa fa-chevron-down"></i>
+                    </li>
+                    <li class="a">
+                        If all of the printers you touch do not work, there is another option! Head over to <a href = "http://printon.andover.edu">printon.andover.edu</a>, login, and select a printer to start printing. Just head over to the selected location and pick up your prints.
+                    </li>
+                    <hr>
+                    <li class="q">
+                        PrintOn doesn't load
+                        <i class = "fa fa-chevron-down"></i>
+                    </li>
+                    <li class="a">
+                        PrintOn will only load properly if you are on Andover’s Wifi network. If it still doesn’t load, then PrintOn’s servers are probably down (This is highly unlikely though).
+                    </li>
+                    <hr>
+                    <li class="q">
+                        Printing a double sided document
+                        <i class = "fa fa-chevron-down"></i>
+                    </li>
+                    <li class="a">
+                        If you are using PrintOn, the only printer that supports double sided pages is “owl-lobbymain.” On page 3, there will be an option that says “duplex.” Here you will be able to select your double-side printing choices. If you are using your own printer, open up the printing panel. It should look something like this:
+                        <br>
+                        <img src = "/Assets/Graphics/techguide/doublesidedprinting.png">
+                        <br>
+                        Select “Copies & Pages” and go down the dropdown to select “Layout.” There will be an option called “two-sided,” which you can change to print double sided.
+                    </li>
+                    <hr>
+                </ul>
+
+                <h1>PANet / Canvas:</h1>
+                <ul class="accordion">
+                    <hr>
+                    <li class="q">
+                        I can't login to Canvas!
+                        <i class = "fa fa-chevron-down"></i>
+                    </li>
+                    <li class="a">
+                        If your screen looks something like this:
+                        <br>
+                        <img src = "/Assets/Graphics/techguide/cookiesrequired.png">
+                        <br>
+                        Try going to PANet, and then logging in, and clicking the link to go directly to Canvas. If this still doesn’t work, you will need to clear your cookies. Go to your browser history, clear history, and make sure you select “cookies.” Clear it and try logging back into Canvas.
+                    </li>
+                    <hr>
+                    <li class="q">
+                        How do I change my password?
+                        <i class = "fa fa-chevron-down"></i>
+                    </li>
+                    <li class="a">
+                        Go to <a href = "http://mypassword.andover.edu">mypassword.andover.edu</a> and follow the instructions there.
+                    </li>
+                    <hr>
+                    <li class="q">
+                        I forgot my password
+                        <i class = "fa fa-chevron-down"></i>
+                    </li>
+                    <li class="a">
+                        Go to <a href = "http://mypassword.andover.edu">mypassword.andover.edu</a> and click on “Reset my Password.” Answer your security questions, and you should get your password back. If you don’t know your security questions, you need to go to the OIT help desk in the PACC (in the basement of the library).
+                    </li>
+                    <hr>
+                </ul>
+
+                <h1>Hardware: </h1>
+                <ul class="accordion">
+                    <hr>
+                    <li class="q">
+                        My charged Ipad won’t turn on
+                        <i class = "fa fa-chevron-down"></i>
+                    </li>
+                    <li class="a">
+                        Try to do a hard reset. Unplug the ipad from your charger, and press and hold the power button and the home button at the same time for at least 10 seconds until the Apple logo appears.
+                    </li>
+                    <hr>
+                </ul>
+
+                <h1>Software: </h1>
+                <ul class="accordion">
+                    <hr>
+                    <li class="q">
+                        Getting Microsoft Office for free
+                        <i class = "fa fa-chevron-down"></i>
+                    </li>
+                    <li class="a">
+                        As an Andover student, you are able to get the latest version of Microsoft office for free. Go to <a href = "http://portal.office.com/start?sku=student">portal.office.com/start?sku=student</a> and enter your Andover email to get started.
+                    </li>
+                    <hr>
+                    <li class="q">
+                        Setting up emails on your phone
+                        <i class = "fa fa-chevron-down"></i>
+                    </li>
+                    <li class="a">
+                        Download the “Outlook” app onto your phone. Add an “Exchange” email account, and input your Andover email and credentials.
+                    </li>
+                    <hr>
+                </ul>
+
+            </div>
+
+
+            <div class="bodybox" id="about">
                 <p>
-                    Do note that this is still a work in progress. Have a question or suggestion for the guide? Email us at <a href = "mailto:techmasters@andover.edu">techmasters@andover.edu</a>.
+                    <strong>Note:</strong> This is still a work in progress. Have a question or suggestion for the guide? Email us at <a href="mailto:techmasters@andover.edu">techmasters@andover.edu</a>.
                 </p>
             </div>
 
         </div>
 
         <footer>
-            <div class = "left">Made with <i class = "fa fa-heart"></i> in <a href = "http://www.andover.edu/Pages/default.aspx" target = "_blank" title = "A > E">Phillips Academy</a></div>
-            <div class = "right"><a href = "https://creativecommons.org/licenses/by-sa/4.0/" target = "_blank">© 2016 Techmasters</a></div>
+            <div class="left">Made with <i class="fa fa-heart"></i> in <a href="http://www.andover.edu/Pages/default.aspx" target="_blank" title="A > E">Phillips Academy</a></div>
+            <div class="right"><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">© 2016 Techmasters</a></div>
         </footer>
     </div>
 
     <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/55091294059b265f542450db/default';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/55091294059b265f542450db/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
         })();
+
     </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src = "/Assets/JS/main.js"></script>
+    <script src="/Assets/JS/accordion.js"></script>
+    <script src="/Assets/JS/main.js"></script>
 </body>
+
 </html>
