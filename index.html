@@ -8,7 +8,7 @@
     <link href = "/Assets/CSS/main.css" type = "text/css" rel = stylesheet>
     <link href = "/Assets/icons/css/font-awesome.min.css" type = "text/css" rel = stylesheet>
     <link rel="shortcut icon" type="image/x-icon" href="/Assets/Graphics/favicon.ico">
-    
+
     <meta name="description" content="Techmasters, an independent student organization at Phillips Academy Andover that is focused on technology.">
     <meta name="author" content="Phillips Academy Techmasters" />
 
@@ -24,26 +24,26 @@
             <div class = "left">
                 <a href = "/"><h1>TECHMASTERS</h1></a>
             </div>
-            
+
             <div class = "right">
                 <a href = "/">HOME</a>
                 <a href = "/members.html">MEMBERS</a>
                 <a href = "/techguide.html">TECH GUIDE</a>
                 <!--<a href = "/apps.html">STUDENT TOOLS</a>-->
                 <a href = "/signup.html">JOIN US</a>
-                <a href = "mailto:techmasters@andover.edu">CONTACT</a>
+                <a href = "mailto:techmasters@andover.edu" target="_blank">EMAIL</a>
                 <a class = "btn" href = "/help.html">HELP ME!</a>
                 <a id = "menu" onclick = "dropdown()" hidden><i class = "fa fa-bars"></i></a>
             </div>
         </nav>
-        
+
         <div id = "dropdown" hidden>
             <section><a href = "/">HOME</a></section>
             <section><a href = "/members.html">MEMBERS</a></section>
             <section><a href = "/techguide.html">TECH GUIDE</a></section>
             <!--<section><a href = "/apps.html">STUDENT TOOLS</a></section>-->
             <section><a href = "/signup.html">JOIN US</a></section>
-            <section><a href = "mailto:techmasters@andover.edu">CONTACT</a></section>
+            <section><a href = "mailto:techmasters@andover.edu" target="_blank">EMAIL</a></section>
             <section><a href = "/help.html">HELP ME!</a></section>
         </div>
 
@@ -51,21 +51,21 @@
             <div class = "center">
                 <h1>We're here to help</h1>
                 <br>
-                <a class = "btn" href = "/#chat" onclick = "toggleChat()">Live Chat</a>
-                <a class = "btn" href = "/help.html#faqs">FAQs</a>
+                <a class = "btn" href = "#chat" onclick = "toggleChat()">Live Chat</a>
+                <a class = "btn" href = "/techguide.html">FAQs</a>
             </div>
         </header>
-    
+
         <div id = "body">
             <div class = "bodybox" id = "about">
                 <h1>
-                     Techmasters is an on-campus tech help organization. We're also a club if you are interested in all things tech.
+                    Techmasters is an on-campus tech support organization.<br> At the same time, we are a computer security club.
                 </h1>
                 <div id = "about-long">
-                    Techmasters originally started out in 1998 as an on-campus tech help organization, assigned with installing Ethernet across campus. Fast forward to 2016, where Techmasters has also become a club for anybody interested in technology. We normally meet for an hour on Sundays to talk about topics such as gadgets, programming, game design, and whatnot. Techmasters is great if you want to learn and discuss modern tech with people just like you. Ultimately, you should become a Techmaster regardless of how good you are at technology. It's a terabyte of fun! 
+                    Techmasters has been in existence since <a href = "http://pdf.phillipian.net/1996/09201996.pdf" target = "_blank" title = "Search for Techmasters in this PDF">at least 1996</a> as a tech support organization, assigned with installing Ethernet across campus. Today, Techmasters has also become a club for anybody interested in technology and computer security. We normally meet for an hour every Sunday to discuss topics such as <a href = "https://www.pactf.com/" target = "_blank" title = "PACTF by Techmasters">ethical hacking</a>, networking, programming, game design, and whatnot. Techmasters is great if you want to learn and discuss modern tech with people just like you. All is welcome regardless of how good you are at technology. It's a terabyte of fun!
                 </div>
-            </div>   
-            
+            </div>
+
             <div class = "bodybox" id = "join">
                 <div class = "center">
                     <h1>JOIN US</h1>
@@ -75,7 +75,7 @@
                     style="display:none;" onload="if(submitted){window.location='/success.html';}"></iframe>
                     <form action="https://docs.google.com/forms/d/1TCytxzUSjiQVgl0frOyV4evS4bR2skvSry3hGYgxZ0U/formResponse" method="POST" id="email-input" target="hidden_iframe" onsubmit="submitted=true;">
                             <input type="text" name="entry.1134060290" value="" class="text ss-q-short" id="entry_1134060290" dir="auto" aria-label="Please enter your PAnet username: Example: rmcstudent Please enter your username only. (Not the @andover.edu part.)" aria-required="true" required="" pattern="^(?!^.*andover.edu.*$).*$" title="Please enter your username only. (Not the @andover.edu part.)" placeholder = "PAnet username">
-                                        
+
                             <input type="hidden" name="draftResponse" value="[,,&quot;-2847211786624446836&quot;]
 ">
                             <input type="hidden" name="pageHistory" value="0">
@@ -88,7 +88,7 @@
                     </form>
                 </div>
             </div>
-            
+
             <div class = "bodybox" id = "tools">
                 <h1>Get Started</h1>
                 <p class = "subtitle">With a collection of apps and tools available for Phillips Academy students</p>
@@ -124,13 +124,13 @@
                 <!--<div id = "full-list"><a href = "/apps.html#tools">See the full list</a></div>-->
             </div>
         </div>
-    
+
         <footer>
-            <div class = "left">Made with <i class = "fa fa-heart"></i> in <a href = "http://www.andover.edu/Pages/default.aspx" target = "_blank" title = "A > E">Phillips Academy</a></div>
-            <div class = "right"><a href = "https://creativecommons.org/licenses/by-sa/4.0/" target = "_blank">© 2016 Techmasters</a></div>
+            <div class = "left">Made with <i class = "fa fa-heart"></i> at <a href = "https://www.andover.edu/Pages/default.aspx" target = "_blank" title = "A > E">Phillips Academy</a></div>
+            <div class = "right">© 2016 <a href="https://techmasters.io/" target="_blank">Techmasters</a>. <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Freely available under CC BY-SA 4.0.</a></div>
         </footer>
     </div>
-     
+
     <script type="text/javascript">
         var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
         (function(){
