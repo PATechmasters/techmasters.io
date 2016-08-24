@@ -15,45 +15,49 @@
             <div class = "left">
                 <a href = "/"><h1>TECHMASTERS</h1></a>
             </div>
-            
+
             <div class = "right">
                 <a href = "/">HOME</a>
                 <a href = "/members.html">MEMBERS</a>
                 <a href = "/techguide.html">TECH GUIDE</a>
                 <!--<a href = "/apps.html">STUDENT TOOLS</a>-->
                 <a href = "/signup.html">JOIN US</a>
-                <a href = "mailto:techmasters@andover.edu">CONTACT</a>
+                <a href = "mailto:techmasters@andover.edu" target="_blank">EMAIL</a>
                 <a class = "btn" href = "/help.html">HELP ME!</a>
                 <a id = "menu" onclick = "dropdown()" hidden><i class = "fa fa-bars"></i></a>
             </div>
         </nav>
-        
+
         <div id = "dropdown" hidden>
             <section><a href = "/">HOME</a></section>
             <section><a href = "/members.html">MEMBERS</a></section>
             <section><a href = "/techguide.html">TECH GUIDE</a></section>
             <!--<section><a href = "/apps.html">STUDENT TOOLS</a></section>-->
             <section><a href = "/signup.html">JOIN US</a></section>
-            <section><a href = "mailto:techmasters@andover.edu">CONTACT</a></section>
+            <section><a href = "mailto:techmasters@andover.edu" target="_blank">EMAIL</a></section>
             <section><a href = "/help.html">HELP ME!</a></section>
         </div>
 
         <header>
             <div class = "center">
                 <h1>Getting Help</h1>
+                <br>
+                <a class = "btn" href = "#chat" onclick = "toggleChat()">Live Chat</a>
+                <a class = "btn" href = "mailto:techmasters@andover.edu" target="_blank">Email</a>
+
             </div>
         </header>
-    
+
         <div id = "body">
-  
+
             <div class = "bodybox" id = "about">
                 <h1>As a Phillips Academy student, there are many ways to receive Technical assistance, so do not be afraid to ask.</h1>
                 <div id = "about-long">
                     You can get one-on-one help with a Techmaster at anytime between 8:00 PM and 10:00 PM on Mondays and Thursdays in the Makerspace. Please bring your charger, PAnet login credentials, and computer login credentials, and we'll see if we can fix your problem. If that doesn't work for you, you can also use the live chat, send an email to <a href = "mailto:techmasters@andover.edu?Subject=TECHMASTERS%20HELP%20TICKET " target="_top ">techmasters@andover.edu</a>, or check out the FAQs below.
                 </div>
             </div>
-            
-            
+
+
             <div class = "bodybox" id = "faqs">
                 <h1>FAQS</h1>
                 <p class = "subtitle">Frequently asked questions</p>
@@ -103,13 +107,13 @@
             </div>
 
         </div>
-    
+
         <footer>
             <div class = "left">Made with <i class = "fa fa-heart"></i> in <a href = "http://www.andover.edu/Pages/default.aspx" target = "_blank" title = "A > E">Phillips Academy</a></div>
             <div class = "right"><a href = "https://creativecommons.org/licenses/by-sa/4.0/" target = "_blank">© 2016 Techmasters</a></div>
         </footer>
     </div>
-     
+
     <script type="text/javascript">
         var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
         (function(){
