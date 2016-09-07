@@ -178,10 +178,15 @@ header#techguide{
     margin: 2em auto;
 }
 
-#techguide-accordion h1{
+#techguide-accordion h1, #techguide-accordion h2{
     font-size: 1.5em;
     color: #464646;
     margin-bottom: 0;
+}
+
+#techguide-accordion h2{
+    font-size: 1.2em;
+    font-family: montserrat;
 }
 
 #techguide-accordion .fa-chevron-down{
