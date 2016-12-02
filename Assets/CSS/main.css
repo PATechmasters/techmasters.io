@@ -559,6 +559,11 @@ header .center p{
 
 .board-member:nth-child(6) .img{
     background-image: url(/Assets/Graphics/Members/mmccain.JPG);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .board-member h1{
