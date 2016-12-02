@@ -557,6 +557,10 @@ header .center p{
     background-image: url(/Assets/Graphics/Members/areichenbach.jpg);
 }
 
+.board-member:nth-child(6) .img{
+    background-image: url(/Assets/Graphics/Members/mmcain.JPG);
+}
+
 .board-member h1{
     font-family: montserrat;
     font-size: 1.5em;
@@ -582,19 +586,19 @@ header .center p{
     min-height: 10em;
 }
 
-#column-left{ 
-    float: left; 
-    width: 31%; 
+#column-left{
+    float: left;
+    width: 31%;
 }
 
-#column-right{ 
-    float: right; 
-    width: 31%; 
+#column-right{
+    float: right;
+    width: 31%;
 }
 
-#column-center{ 
-    display: inline-block; 
-    width: 31%; 
+#column-center{
+    display: inline-block;
+    width: 31%;
     margin-left: 3.3%;
     margin-right: 3.3%;
 }
@@ -651,22 +655,22 @@ footer{
 
 @media screen and (max-width: 1000px) {
     #about h1{
-        width: 60%;    
+        width: 60%;
     }
-    
+
     #about-long, #about p{
         width: 70%;
     }
-    
+
     #board{
         width: 95%;
     }
-    
+
     #column-center, #column-left, #column-right{
         width: 100%;
         margin: 0;
     }
-    
+
     #faq-long{
         padding-bottom: 25em;
     }
@@ -685,13 +689,13 @@ footer{
 
 @media screen and (max-width: 850px) {
     #about h1{
-        width: 65%;    
+        width: 65%;
     }
-    
+
     #about-long, #about p{
         width: 75%;
     }
-    
+
     nav .left{
         padding-left: 5vw;
     }
@@ -699,7 +703,7 @@ footer{
     nav .right{
         padding-right: 5vw;
     }
-    
+
     .img{
         width: 13em;
         height: 13em;
@@ -708,9 +712,9 @@ footer{
 
 @media screen and (max-width: 800px) {
     #about h1{
-        width: 65%;    
+        width: 65%;
     }
-    
+
     #about-long{
         width: 85%;
         -webkit-column-count: 1;
@@ -718,45 +722,45 @@ footer{
         column-count: 1;
         text-align: center;
     }
-    
+
     #about p{
         width: 85%;
     }
-    
+
     #join #email-input{
         width: 60%;
     }
-    
+
     #body{
         padding-bottom: 3em;
     }
-    
+
     footer{
         width: 90vw;
     }
-    
+
     #tools .subtitle, #roster .subtitle, #faqs .subtitle{
         width: 90%;
     }
-    
+
     .app{
         width: 20em;
         height: 20em;
     }
-    
+
     .board-member{
         width: 50%;
         margin-bottom: 2em;
     }
-    
+
     #faq-long{
         padding-bottom: 30em;
     }
-    
+
     #faqs{
         margin-bottom: 3em;
     }
-    
+
     #techguide-accordion{
         width: 80%;
     }
@@ -787,30 +791,30 @@ footer{
 @media screen and (max-width: 500px) {
     #about h1{
         width: 75%;
-    }   
-    
+    }
+
     nav .right a{
         margin-right: 0.2em;
     }
-    
+
     footer{
         display: block;
         text-align: center;
         height: 5em;
     }
-    
+
     footer .right{
         text-align: center;
     }
-    
+
     #join #email-input{
         width: 80%;
     }
-    
+
     header .center h1{
         font-size: 2.5em;
     }
-    
+
     .board-member{
         width: 95%;
     }
@@ -818,7 +822,7 @@ footer{
     #faq-long{
         padding-bottom: 33em;
     }
-    
+
     #faqs{
         margin-bottom: 5em;
     }
