@@ -273,13 +273,27 @@ header .center p{
     padding-bottom: 3em;
 }
 
-#about h1{
+#about h1, #pastBoard h1{
     color: #464646;
     font-family: montserrat;
     font-size: 1.2em;
     width: 40%;
     text-align: center;
     margin: 0 auto;
+}
+
+#pastBoard{
+  padding: 3em;
+}
+
+#pastBoard h2{
+  color: #464646;
+  font-family: montserrat;
+  font-size: 1em;
+}
+
+#pastBoard p{
+  font-family: sourcesanspro;
 }
 
 #about-long{
@@ -328,6 +342,10 @@ header .center p{
 #join p{
     font-family: sourcesanspro;
     margin-top: 0;
+}
+
+#join a{
+  font-family: sourcesansprobold;
 }
 
 #join #email-input{
