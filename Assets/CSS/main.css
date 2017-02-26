@@ -556,27 +556,33 @@ header .center p{
 }
 
 .board-member:nth-child(1) .img{
-    background-image: url(../Graphics/Members/areichenbach.jpg);
+    background-image: url(../Graphics/Members/ztan.jpg);
 }
 
 .board-member:nth-child(2) .img{
-  background-image: url(../Graphics/Members/mmccain.JPG);
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+    background-image: url(../Graphics/Members/yagarwal.jpg);
 }
 
 .board-member:nth-child(3) .img{
-    background-image: url(../Graphics/Members/jshen.jpg);
+    background-image: url(../Graphics/Members/plamkin.jpg);
 }
 
 .board-member:nth-child(4) .img{
-    background-image: url(../Graphics/Members/dmeyer.jpg);
+    background-image: url(../Graphics/Members/jshen.jpg);
 }
 
+.board-member:nth-child(5) .img{
+    background-image: url(../Graphics/Members/areichenbach.jpg);
+}
 
+.board-member:nth-child(6) .img{
+    background-image: url(../Graphics/Members/mmccain.JPG);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
 
 .board-member h1{
     font-family: montserrat;
