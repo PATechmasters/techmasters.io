@@ -569,10 +569,14 @@ header .center p{
 }
 
 .board-member:nth-child(3) .img{
-    background-image: url(../Graphics/Members/jshen.jpg);
+    background-image: url(../Graphics/Members/vroy.jpg);
 }
 
 .board-member:nth-child(4) .img{
+    background-image: url(../Graphics/Members/jshen.jpg);
+}
+
+.board-member:nth-child(5) .img{
     background-image: url(../Graphics/Members/dmeyer.jpg);
 }
 
