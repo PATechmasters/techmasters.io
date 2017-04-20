@@ -130,7 +130,7 @@ nav .right .btn{
 
 header{
     height: 65vh;
-    width: 100vw;
+    width: 100%;
     background: -webkit-linear-gradient( rgba(44, 62, 80, 0.55), rgba(44, 62, 80, 0.55)), url("../Graphics/header.jpeg");
     background: linear-gradient( rgba(44, 62, 80, 0.55), rgba(44, 62, 80, 0.55)), url("../Graphics/header.jpeg");
     background-size: cover;
