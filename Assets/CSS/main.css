@@ -546,8 +546,8 @@ header .center p{
 }
 
 .img{
-    width: 15em;
-    height: 15em;
+    width: 13em;
+    height: 13em;
     border-radius: 100%;
     margin: 0 auto;
     background-position: center center;
@@ -556,16 +556,11 @@ header .center p{
 }
 
 .board-member:nth-child(1) .img{
-    background-image: url(../Graphics/Members/areichenbach.jpg);
+    background-image: url(../Graphics/Members/rmccain.jpg);
 }
 
 .board-member:nth-child(2) .img{
-  background-image: url(../Graphics/Members/mmccain.JPG);
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+  background-image: url(../Graphics/Members/ibarakiev.jpg);
 }
 
 .board-member:nth-child(3) .img{
@@ -577,7 +572,7 @@ header .center p{
 }
 
 .board-member:nth-child(5) .img{
-    background-image: url(../Graphics/Members/dmeyer.jpg);
+    background-image: url(../Graphics/Members/schen.jpg);
 }
 
 
@@ -814,6 +809,10 @@ footer{
         width: 75%;
     }
 
+    .board-member{
+        width: 95%;
+    }
+
     nav .right a{
         margin-right: 0.2em;
     }
@@ -834,10 +833,6 @@ footer{
 
     header .center h1{
         font-size: 2.5em;
-    }
-
-    .board-member{
-        width: 95%;
     }
 
     #faq-long{
