@@ -556,15 +556,15 @@ header .center p{
 }
 
 .board-member:nth-child(1) .img{
-    background-image: url(../Graphics/Members/rmccain.jpg);
+    background-image: url(../Graphics/Members/ibarakiev.jpg);
 }
 
 .board-member:nth-child(2) .img{
-  background-image: url(../Graphics/Members/ibarakiev.jpg);
+  background-image: url(../Graphics/Members/schen.jpg);
 }
 
 .board-member:nth-child(3) .img{
-    background-image: url(../Graphics/Members/vroy.jpg);
+    background-image: url(../Graphics/Members/jshen.jpg);
 }
 
 .board-member:nth-child(4) .img{
@@ -572,10 +572,12 @@ header .center p{
 }
 
 .board-member:nth-child(5) .img{
-    background-image: url(../Graphics/Members/schen.jpg);
+    background-image: url(../Graphics/Members/jshen.jpg);
 }
 
-
+.board-member:nth-child(6) .img{
+    background-image: url(../Graphics/Members/jshen.jpg);
+}
 
 .board-member h1{
     font-family: montserrat;

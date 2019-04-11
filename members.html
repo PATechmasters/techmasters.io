@@ -1,250 +1,265 @@
  <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Techmasters</title>
-    <link href = "Assets/CSS/main.css" type = "text/css" rel = stylesheet>
-    <link href = "Assets/icons/css/font-awesome.min.css" type = "text/css" rel = stylesheet>
-    <link rel="shortcut icon" type="image/x-icon" href="Assets/Graphics/favicon.ico">
-</head>
-<body>
-    <div id = "wrapper">
-        <nav>
-            <div class = "left">
-                <a href = "/"><h1>TECHMASTERS</h1></a>
-            </div>
+ <html>
 
-            <div class = "right">
-                <a href = "/">HOME</a>
-                <a href = "/members.html">MEMBERS</a>
-                <a href = "/techguide.html">TECH GUIDE</a>
-                <!--<a href = "/apps.html">STUDENT TOOLS</a>-->
-                <a href = "/signup.html">JOIN US</a>
-                <a href = "mailto:techmasters@andover.edu" target="_blank">EMAIL</a>
-                <a class = "btn" href = "/help.html">HELP ME!</a>
-                <a id = "menu" onclick = "dropdown()" hidden><i class = "fa fa-bars"></i></a>
-            </div>
-        </nav>
+ <head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Techmasters</title>
+   <link href="Assets/CSS/main.css" type="text/css" rel=stylesheet>
+   <link href="Assets/icons/css/font-awesome.min.css" type="text/css" rel=stylesheet>
+   <link rel="shortcut icon" type="image/x-icon" href="Assets/Graphics/favicon.ico">
+ </head>
 
-        <div id = "dropdown" hidden>
-            <section><a href = "/">HOME</a></section>
-            <section><a href = "/members.html">MEMBERS</a></section>
-            <section><a href = "/techguide.html">TECH GUIDE</a></section>
-            <!--<section><a href = "/apps.html">STUDENT TOOLS</a></section>-->
-            <section><a href = "/signup.html">JOIN US</a></section>
-            <section><a href = "mailto:techmasters@andover.edu" target="_blank">EMAIL</a></section>
-            <section><a href = "/help.html">HELP ME!</a></section>
-        </div>
+ <body>
+   <div id="wrapper">
+     <nav>
+       <div class="left">
+         <a href="/">
+           <h1>TECHMASTERS</h1>
+         </a>
+       </div>
 
-        <header id = "members">
-            <div class = "center">
-                <h1>Meet the team</h1>
-                <p>Talk to us. We don't bite.</p>
-            </div>
-        </header>
+       <div class="right">
+         <a href="/">HOME</a>
+         <a href="/members.html">MEMBERS</a>
+         <a href="/techguide.html">TECH GUIDE</a>
+         <!--<a href = "/apps.html">STUDENT TOOLS</a>-->
+         <a href="/signup.html">JOIN US</a>
+         <a href="mailto:techmasters@andover.edu" target="_blank">EMAIL</a>
+         <a class="btn" href="/help.html">HELP ME!</a>
+         <a id="menu" onclick="dropdown()" hidden><i class="fa fa-bars"></i></a>
+       </div>
+     </nav>
 
-        <div id = "body">
-            <div class = "bodybox" id = "board">
-                <div class = "board-member board-member-big">
-                    <div class = "img"></div>
-                    <h1>Miles McCain</h1>
-                    <p class = "subtitle">Co-President</p>
-                    <p><a href = "mailto:rmccain@andover.edu"> rmccain@andover.edu</a></p>
-                </div>
-                <div class = "board-member board-member-big">
-                    <div class = "img"></div>
-                    <h1>Igor Barakaiev</h1>
-                    <p class = "subtitle">Co-President</p>
-                    <p><a href = "mailto:ibarakaiev20@andover.edu"> ibarakaiev20@andover.edu</a></p>
-                </div>
-                <div class = "board-member">
-                    <div class = "img"></div>
-                    <h1>Varun Roy</h1>
-                    <p class = "subtitle">Assistant President</p>
-                    <p><a href = "mailto:vroy19@andover.edu"> vroy19@andover.edu</a></p>
-                </div>
-                <div class = "board-member">
-                    <div class = "img"></div>
-                    <h1>Jeffrey Shen</h1>
-                    <p class = "subtitle">Webmaster</p>
-                    <p><a href = "mailto:jshen@andover.edu"> jshen@andover.edu</a></p>
-                </div>
-                <div class = "board-member">
-                    <div class = "img"></div>
-                    <h1>Sarah Chen</h1>
-                    <p class = "subtitle">Associate</p>
-                    <p><a href = "mailto:schen20@andover.edu"> schen20@andover.edu</a></p>
-                </div>
-                <div class = "board-member">
-                    <div class = "img"></div>
-                    <h1>Charles Yoon</h1>
-                    <p class = "subtitle">Associate</p>
-                    <p><a href = "mailto:cyoon20@andover.edu"> cyoon20@andover.edu</a></p>
-                </div>
-            </div>
+     <div id="dropdown" hidden>
+       <section><a href="/">HOME</a></section>
+       <section><a href="/members.html">MEMBERS</a></section>
+       <section><a href="/techguide.html">TECH GUIDE</a></section>
+       <!--<section><a href = "/apps.html">STUDENT TOOLS</a></section>-->
+       <section><a href="/signup.html">JOIN US</a></section>
+       <section><a href="mailto:techmasters@andover.edu" target="_blank">EMAIL</a></section>
+       <section><a href="/help.html">HELP ME!</a></section>
+     </div>
 
-            <div class = "bodybox" id = "join">
-                <div class = "center">
-                    <h1>JOIN THE TEAM</h1>
-                    <p>Subscribe to be added to the mailing list</p>
-                    <script type="text/javascript">var submitted=false;</script>
-                    <iframe name="hidden_iframe" id="hidden_iframe"
-                    style="display:none;" onload="if(submitted){window.location='/success.html';}"></iframe>
-                    <form action="https://docs.google.com/forms/d/1TCytxzUSjiQVgl0frOyV4evS4bR2skvSry3hGYgxZ0U/formResponse" method="POST" id="email-input" target="hidden_iframe" onsubmit="submitted=true;">
-                            <input type="text" name="entry.1134060290" value="" class="text ss-q-short" id="entry_1134060290" dir="auto" aria-label="Please enter your PAnet username: Example: rmcstudent Please enter your username only. (Not the @andover.edu part.)" aria-required="true" required="" pattern="^(?!^.*andover.edu.*$).*$" title="Please enter your username only. (Not the @andover.edu part.)" placeholder = "PAnet username">
+     <header id="members">
+       <div class="center">
+         <h1>Meet the team</h1>
+         <p>Talk to us. We don't bite.</p>
+       </div>
+     </header>
 
-                            <input type="hidden" name="draftResponse" value="[,,&quot;-2847211786624446836&quot;]
+     <div id="body">
+       <div class="bodybox" id="board">
+         <div class="board-member board-member-big">
+           <div class="img"></div>
+           <h1>Igor Barakaiev</h1>
+           <p class="subtitle">Co-President</p>
+           <p><a href="mailto:ibarakaiev20@andover.edu"> ibarakaiev20@andover.edu</a></p>
+         </div>
+         <div class="board-member board-member-big">
+           <div class="img"></div>
+           <h1>Sarah Chen</h1>
+           <p class="subtitle">Co-President</p>
+           <p><a href="mailto:schen21@andover.edu"> schen21@andover.edu</a></p>
+         </div>
+         <div class="board-member">
+           <div class="img"></div>
+           <h1>Charles Yoon</h1>
+           <p class="subtitle">Assistant President</p>
+           <p><a href="mailto:cyoon20@andover.edu"> cyoon20@andover.edu</a></p>
+         </div>
+         <div class="board-member">
+           <div class="img"></div>
+           <h1>Anthony Kim</h1>
+           <p class="subtitle">Webmaster</p>
+           <p><a href="mailto:akim21@andover.edu"> akim21@andover.edu</a></p>
+         </div>
+         <div class="board-member">
+           <div class="img"></div>
+           <h1>Alex Turk</h1>
+           <p class="subtitle">Server Master</p>
+           <p><a href="mailto:aturk21@andover.edu"> aturk21@andover.edu</a></p>
+         </div>
+         <div class="board-member">
+           <div class="img"></div>
+           <h1>Jeffrey Pan</h1>
+           <p class="subtitle">Associate</p>
+           <p><a href="mailto:jpan21@andover.edu"> jpan21@andover.edu</a></p>
+         </div>
+         <div class="board-member">
+           <div class="img"></div>
+           <h1>Quintin Moss</h1>
+           <p class="subtitle">Associate</p>
+           <p><a href="mailto:qmoss21@andover.edu"> qmoss21@andover.edu</a></p>
+         </div>
+       </div>
+
+       <div class="bodybox" id="join">
+         <div class="center">
+           <h1>JOIN THE TEAM</h1>
+           <p>Subscribe to be added to the mailing list</p>
+           <script type="text/javascript">
+             var submitted = false;
+           </script>
+           <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='/success.html';}"></iframe>
+           <form action="https://docs.google.com/forms/d/1TCytxzUSjiQVgl0frOyV4evS4bR2skvSry3hGYgxZ0U/formResponse" method="POST" id="email-input" target="hidden_iframe" onsubmit="submitted=true;">
+             <input type="text" name="entry.1134060290" value="" class="text ss-q-short" id="entry_1134060290" dir="auto" aria-label="Please enter your PAnet username: Example: rmcstudent Please enter your username only. (Not the @andover.edu part.)"
+               aria-required="true" required="" pattern="^(?!^.*andover.edu.*$).*$" title="Please enter your username only. (Not the @andover.edu part.)" placeholder="PAnet username">
+
+             <input type="hidden" name="draftResponse" value="[,,&quot;-2847211786624446836&quot;]
 ">
-                            <input type="hidden" name="pageHistory" value="0">
+             <input type="hidden" name="pageHistory" value="0">
 
-                            <input type="hidden" name="fvv" value="0">
+             <input type="hidden" name="fvv" value="0">
 
-                            <input type="hidden" name="fbzx" value="-2847211786624446836">
+             <input type="hidden" name="fbzx" value="-2847211786624446836">
 
-                            <input type="submit" name="submit" value="Subscribe" id="ss-submit" class="jfk-button jfk-button-action ">
-                    </form>
-                    <br>
-                    <p>Want to be a board member? Read the <a href = "Assets/constitution.pdf">constitution</a> for more information</p>
-                </div>
-            </div>
+             <input type="submit" name="submit" value="Subscribe" id="ss-submit" class="jfk-button jfk-button-action ">
+           </form>
+           <br>
+           <p>Want to be a board member? Read the <a href="Assets/constitution.pdf">constitution</a> for more information</p>
+         </div>
+       </div>
 
-            <div class = "bodybox" id = "roster">
-                <div id = "current">
-                    <h1>Some Club Members</h1>
-                    <hr>
-                    <ul>
-                        <li>Nick Jasaitis '19</li>
-                        <li>Katherine Payne '19</li>
-                        <li>Eric Osband '19</li>
-                        <li>Varun Roy '19</li>
-                        <li>William Leggat '20</li>
-                        <li>James Collett '20</li>
-                        <li>Jamie Justicz '20</li>
-                        <li>Harry Shin '20</li>
-                    </ul>
-                </div>
-                <div id = "wduty">
-                    <h1>Help Desk Staff</h1>
-                    <hr>
-                    <ul>
-                        <li>Lior Hirschfield '17</li>
-                        <li>Jason Yung '18</li>
-                        <li>Oliver Pennigton '18</li>
-                        <li>Kevin Sun '18</li>
-                        <li>Rawit Assamongkol '18</li>
-                        <li>Ryan Owyang '19</li>
-                    </ul>
-                </div>
-            </div>
+       <div class="bodybox" id="roster">
+         <div id="current">
+           <h1>Some Club Members</h1>
+           <hr>
+           <ul>
+             <li>Nick Jasaitis '19</li>
+             <li>Katherine Payne '19</li>
+             <li>Eric Osband '19</li>
+             <li>Varun Roy '19</li>
+             <li>William Leggat '20</li>
+             <li>James Collett '20</li>
+             <li>Jamie Justicz '20</li>
+             <li>Harry Shin '20</li>
+           </ul>
+         </div>
+         <div id="wduty">
+           <h1>Help Desk Staff</h1>
+           <hr>
+           <ul>
+             <li>Lior Hirschfield '17</li>
+             <li>Jason Yung '18</li>
+             <li>Oliver Pennigton '18</li>
+             <li>Kevin Sun '18</li>
+             <li>Rawit Assamongkol '18</li>
+             <li>Ryan Owyang '19</li>
+           </ul>
+         </div>
+       </div>
 
-            <hr>
+       <hr>
 
-            <div class = "bodybox" id = "pastBoard">
-              <h1>Past Techmasters Board Members</h1>
-              <h2>2017-2018</h2>
-              <p>
-                President: Alex Reichenbach ‘18, Miles McCain ‘19<br>
-                Assistant President: Varun Roy ‘19<br>
-                Server Administrator: Darcy Meyer ‘18<br>
-                Webmaster: Jeffrey Shen ‘19<br>
-              </p>
-              <h2>2016-2017</h2>
-              <p>
-                President: Yatharth Agarwal ‘17, Tony Zhaocheng Tan ‘17<br>
-                Assistant President: Philip Lamkin ‘17<br>
-                Server Administrator: Alex Reichenbach ‘18<br>
-                Webmaster: Jeffrey Shen ‘19<br>
-                CTF Master: Miles McCain ‘19 (appointed)
-              </p>
-              <h2>2015-2016</h2>
-              <p>
-                President: Cameron Wong ‘16, Karen Xia ‘16<br>
-                Assistant President: Philip Lamkin ‘17<br>
-                Server Administrator: Yatharth Agarwal ‘17<br>
-                Webmaster: Eric Lee ‘16<br>
-                Administrative Assistant: Tony Zhaocheng Tan ‘17 (appointed)
-              </p>
-              <h2>2014-2015</h2>
-              <p>
-                President: Clifford Ressel ‘15, Jake Herman ‘15<br>
-                Assistant President: Ravn Jenkins ‘15<br>
-                Server Administrator: Thayer Anderson ‘15<br>
-                Webmaster: Claire Wolford ‘15
-              </p>
-              <h2>2013-2014</h2>
-              <p>
-                President: Tadaes Nemec ‘14<br>
-                Assistant President: Cliff Ressel ‘15<br>
-                Server Administrator: Thayer Anderson ‘15 and Jake Herman ‘15<br>
-                Webmaster: Claire Wolford ‘15
-              </p>
-              <h2>2012-2013</h2>
-              <p>
-                President: Patrick Niedzielski ‘13<br>
-                Assistant President: Tadaes Nemec ‘14<br>
-                Server Administrator: Aidan Beckley ‘13<br>
-                Webmaster: Claire Wolford ‘15
-              </p>
-              <h2>2011-2012</h2>
-              <p>
-                President: Patrick Niedzielski ‘13<br>
-                Assistant President: Christoph von Braun ‘12<br>
-                Server Administrator: Bernhard Fasenfest ‘12<br>
-                Webmaster: Aidan Beckley ‘13 and Paul Johnson
-              </p>
-              <h2>2010-2011</h2>
-              <p>
-                President: Kevin Song ‘11<br>
-                Assistant President: Amanda Wang ‘11<br>
-                Server Administrator: Patrick Niedzielski ‘13<br>
-                Webmaster: Bernhard Fasenfest ‘12<br>
-              </p>
-              <h2>2009-2010</h2>
-              <p>
-                President: Henry Morgan ‘10<br>
-                Assistant President: Elizabeth Chen ‘10<br>
-                Server Administrator: Kevin Song ‘11<br>
-                Webmaster: Katherine Rivera ‘11
-              </p>
-              <h2>2008-2009</h2>
-              <p>
-                President: Christian Anderson ‘09<br>
-                Assistant President: Gloria Odusote<br>
-                Server Administrator: Henry Morgan ‘10<br>
-                Webmaster: Carl F. Jackson ‘09
-              </p>
-              <h2>2007-2008</h2>
-              <p>
-                President: William Koven<br>
-                Assistant President: Frank Pinto<br>
-                Server Administrator: Nicholas Gordon<br>
-                Assistant Server Administrator: Luinis Tejada<br>
-                Webmaster: Alex Dehnert
-              </p>
-            </div>
-        </div>
+       <div class="bodybox" id="pastBoard">
+         <h1>Past Techmasters Board Members</h1>
+         <h2>2017-2018</h2>
+         <p>
+           President: Alex Reichenbach ‘18, Miles McCain ‘19<br>
+           Assistant President: Varun Roy ‘19<br>
+           Server Administrator: Darcy Meyer ‘18<br>
+           Webmaster: Jeffrey Shen ‘19<br>
+         </p>
+         <h2>2016-2017</h2>
+         <p>
+           President: Yatharth Agarwal ‘17, Tony Zhaocheng Tan ‘17<br>
+           Assistant President: Philip Lamkin ‘17<br>
+           Server Administrator: Alex Reichenbach ‘18<br>
+           Webmaster: Jeffrey Shen ‘19<br>
+           CTF Master: Miles McCain ‘19 (appointed)
+         </p>
+         <h2>2015-2016</h2>
+         <p>
+           President: Cameron Wong ‘16, Karen Xia ‘16<br>
+           Assistant President: Philip Lamkin ‘17<br>
+           Server Administrator: Yatharth Agarwal ‘17<br>
+           Webmaster: Eric Lee ‘16<br>
+           Administrative Assistant: Tony Zhaocheng Tan ‘17 (appointed)
+         </p>
+         <h2>2014-2015</h2>
+         <p>
+           President: Clifford Ressel ‘15, Jake Herman ‘15<br>
+           Assistant President: Ravn Jenkins ‘15<br>
+           Server Administrator: Thayer Anderson ‘15<br>
+           Webmaster: Claire Wolford ‘15
+         </p>
+         <h2>2013-2014</h2>
+         <p>
+           President: Tadaes Nemec ‘14<br>
+           Assistant President: Cliff Ressel ‘15<br>
+           Server Administrator: Thayer Anderson ‘15 and Jake Herman ‘15<br>
+           Webmaster: Claire Wolford ‘15
+         </p>
+         <h2>2012-2013</h2>
+         <p>
+           President: Patrick Niedzielski ‘13<br>
+           Assistant President: Tadaes Nemec ‘14<br>
+           Server Administrator: Aidan Beckley ‘13<br>
+           Webmaster: Claire Wolford ‘15
+         </p>
+         <h2>2011-2012</h2>
+         <p>
+           President: Patrick Niedzielski ‘13<br>
+           Assistant President: Christoph von Braun ‘12<br>
+           Server Administrator: Bernhard Fasenfest ‘12<br>
+           Webmaster: Aidan Beckley ‘13 and Paul Johnson
+         </p>
+         <h2>2010-2011</h2>
+         <p>
+           President: Kevin Song ‘11<br>
+           Assistant President: Amanda Wang ‘11<br>
+           Server Administrator: Patrick Niedzielski ‘13<br>
+           Webmaster: Bernhard Fasenfest ‘12<br>
+         </p>
+         <h2>2009-2010</h2>
+         <p>
+           President: Henry Morgan ‘10<br>
+           Assistant President: Elizabeth Chen ‘10<br>
+           Server Administrator: Kevin Song ‘11<br>
+           Webmaster: Katherine Rivera ‘11
+         </p>
+         <h2>2008-2009</h2>
+         <p>
+           President: Christian Anderson ‘09<br>
+           Assistant President: Gloria Odusote<br>
+           Server Administrator: Henry Morgan ‘10<br>
+           Webmaster: Carl F. Jackson ‘09
+         </p>
+         <h2>2007-2008</h2>
+         <p>
+           President: William Koven<br>
+           Assistant President: Frank Pinto<br>
+           Server Administrator: Nicholas Gordon<br>
+           Assistant Server Administrator: Luinis Tejada<br>
+           Webmaster: Alex Dehnert
+         </p>
+       </div>
+     </div>
 
-        <footer>
-            <div class = "left">Made with <i class = "fa fa-heart"></i> at <a href = "https://www.andover.edu/Pages/default.aspx" target = "_blank" title = "A > E">Phillips Academy</a></div>
-            <div class = "right">© 2016 <a href="https://techmasters.io/" target="_blank">Techmasters</a>. <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Freely available under CC BY-SA 4.0.</a></div>
-        </footer>
-    </div>
+     <footer>
+       <div class="left">Made with <i class="fa fa-heart"></i> at <a href="https://www.andover.edu/Pages/default.aspx" target="_blank" title="A > E">Phillips Academy</a></div>
+       <div class="right">© 2016 <a href="https://techmasters.io/" target="_blank">Techmasters</a>. <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Freely available under CC BY-SA 4.0.</a></div>
+     </footer>
+   </div>
 
-    <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/55091294059b265f542450db/default';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
-        })();
-    </script>
+   <script type="text/javascript">
+     var Tawk_API = Tawk_API || {},
+       Tawk_LoadStart = new Date();
+     (function() {
+       var s1 = document.createElement("script"),
+         s0 = document.getElementsByTagName("script")[0];
+       s1.async = true;
+       s1.src = 'https://embed.tawk.to/55091294059b265f542450db/default';
+       s1.charset = 'UTF-8';
+       s1.setAttribute('crossorigin', '*');
+       s0.parentNode.insertBefore(s1, s0);
+     })();
+   </script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src = "Assets/JS/main.js"></script>
-</body>
-</html>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+   <script src="Assets/JS/main.js"></script>
+ </body>
+
+ </html>
