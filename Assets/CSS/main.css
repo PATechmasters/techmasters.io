@@ -568,13 +568,16 @@ header .center p{
 }
 
 .board-member:nth-child(4) .img{
-    background-image: url(../Graphics/Members/jshen.jpg);
+    background-image: url(../Graphics/Members/akim.jpeg);
 }
 
 .board-member:nth-child(5) .img{
     background-image: url(../Graphics/Members/jshen.jpg);
 }
 
+.board-member:nth-child(6) .img{
+    background-image: url(../Graphics/Members/jpan.jpeg);
+}
 .board-member:nth-child(6) .img{
     background-image: url(../Graphics/Members/jshen.jpg);
 }
