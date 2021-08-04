@@ -556,24 +556,24 @@ header .center p{
 }
 
 .board-member:nth-child(1) .img{
-    background-image: url(../Graphics/Members/schen.jpeg);
+    background-image: url(../Graphics/Members/sibragimova.jpeg);
 }
 
 .board-member:nth-child(2) .img{
-  background-image: url(../Graphics/Members/aturk.jpg);
+  background-image: url(../Graphics/Members/mhuang.jpeg);
 }
 
 .board-member:nth-child(3) .img{
-    background-image: url(../Graphics/Members/qmoss.jpg);
+    background-image: url(../Graphics/Members/afalcon.jpg);
 }
 
 .board-member:nth-child(4) .img{
-    background-image: url(../Graphics/Members/akim.jpg);
+    background-image: url(../Graphics/Members/pchen.jpeg);
 }
 
-.board-member:nth-child(5) .img{
+/*.board-member:nth-child(5) .img{
     background-image: url(../Graphics/Members/jpan.jpeg);
-}
+}*/
 
 .board-member h1{
     font-family: montserrat;
