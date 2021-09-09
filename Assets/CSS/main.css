@@ -571,9 +571,9 @@ header .center p{
     background-image: url(../Graphics/Members/pchen.jpeg);
 }
 
-/*.board-member:nth-child(5) .img{
-    background-image: url(../Graphics/Members/jpan.jpeg);
-}*/
+.board-member:nth-child(5) .img{
+    background-image: url(../Graphics/Members/ayang.jpg);
+}
 
 .board-member h1{
     font-family: montserrat;
