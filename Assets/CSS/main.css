@@ -575,6 +575,10 @@ header .center p{
     background-image: url(../Graphics/Members/ayang.jpg);
 }
 
+.board-member:nth-child(6) .img{
+    background-image: url(../Graphics/Members/dzou.jpeg);
+}
+
 .board-member h1{
     font-family: montserrat;
     font-size: 1.5em;
