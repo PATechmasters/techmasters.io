@@ -564,7 +564,7 @@ header .center p{
 }
 
 .board-member:nth-child(3) .img{
-    background-image: url(../Graphics/Members/cwang.jpg);
+    background-image: url(../Graphics/Members/cwang.jpeg);
 }
 
 .board-member:nth-child(4) .img{
@@ -572,7 +572,7 @@ header .center p{
 }
 
 .board-member:nth-child(5) .img{
-    background-image: url(../Graphics/Members/span.jpg);
+    background-image: url(../Graphics/Members/span.jpeg);
 }
 
 .board-member h1{
