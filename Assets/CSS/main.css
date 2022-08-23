@@ -556,7 +556,7 @@ header .center p{
 }
 
 .board-member:nth-child(1) .img{
-    background-image: url(../Graphics/Members/sibragimova.jpeg);
+    background-image: url(../Graphics/Members/dzou.jpeg);
 }
 
 .board-member:nth-child(2) .img{
@@ -564,19 +564,15 @@ header .center p{
 }
 
 .board-member:nth-child(3) .img{
-    background-image: url(../Graphics/Members/afalcon.jpg);
+    background-image: url(../Graphics/Members/cwang.jpg);
 }
 
 .board-member:nth-child(4) .img{
-    background-image: url(../Graphics/Members/pchen.jpeg);
+    background-image: url(../Graphics/Members/skim.jpeg);
 }
 
 .board-member:nth-child(5) .img{
-    background-image: url(../Graphics/Members/ayang.jpg);
-}
-
-.board-member:nth-child(6) .img{
-    background-image: url(../Graphics/Members/dzou.jpeg);
+    background-image: url(../Graphics/Members/span.jpg);
 }
 
 .board-member h1{
