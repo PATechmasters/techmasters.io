@@ -556,7 +556,7 @@ header .center p{
 }
 
 .board-member:nth-child(1) .img{
-    background-image: url(../Graphics/Members/dzou.jpeg);
+    background-image: url(../Graphics/Members/dzou.jpg);
 }
 
 .board-member:nth-child(2) .img{
