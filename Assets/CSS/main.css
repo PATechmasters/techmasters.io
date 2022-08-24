@@ -555,7 +555,7 @@ header .center p{
     background-size: cover;
 }
 
-.board-member:nth-child(1) .img{
+/*.board-member:nth-child(1) .img{
     background-image: url(../Graphics/Members/dzou.jpg);
 }
 
@@ -575,9 +575,9 @@ header .center p{
     background-image: url(../Graphics/Members/span.jpeg);
 }
 
-.board-member:nth-child(5) .img{
+.board-member:nth-child(6) .img{
     background-image: url(../Graphics/Members/nzufelt.jpg);
-}
+}*/
 
 .board-member h1{
     font-family: montserrat;
